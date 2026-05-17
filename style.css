@@ -42,13 +42,21 @@ h1 {
 
 .intro-box {
     background: white;
-    max-width: 900px; /* Changed from 85% to match main content width */
+    /* Default for mobile: 95% width */
+    max-width: 95%; 
     margin: -2rem auto 0.3rem;
     padding: 0.8rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     position: relative;
-    box-sizing: border-box; /* Added to prevent padding from exceeding max-width */
+    box-sizing: border-box;
+}
+
+/* Override for desktop only (screens wider than 900px) */
+@media (min-width: 901px) {
+    .intro-box {
+        max-width: 900px;
+    }
 }
 
 /* Ensure consistent font for all intro elements */
