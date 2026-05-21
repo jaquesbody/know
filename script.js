@@ -1160,19 +1160,25 @@ document.addEventListener('DOMContentLoaded', () => {
     
     alert('Calendar reminders opened! Create each one in your calendar app.');
 }
-document.addEventListener('DOMContentLoaded', () => {
+
+  document.addEventListener('DOMContentLoaded', () => {
     const popup = document.getElementById('privacy-popup');
     const closeBtn = document.getElementById('popup-close');
     const acceptBtn = document.getElementById('popup-accept');
     const popupId = 'privacy-popup-accepted';
 
+    // Safety check: Ensure elements exist
+    if (!popup || !closeBtn || !acceptBtn) {
+        console.error('Popup elements not found. Check HTML structure.');
+        return;
+    }
+
     // Show popup if user hasn't accepted yet
-// TEMPORARILY DISABLED FOR TESTING: Remove the // below to re-enable memory
     if (!localStorage.getItem(popupId)) {
-    setTimeout(() => {
-        popup.classList.add('active');
-    }, 500);
- }
+        setTimeout(() => {
+            popup.classList.add('active');
+        }, 500);
+    }
 
     // Close actions
     const closePopup = () => {
@@ -1185,6 +1191,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Close on outside click
     popup.addEventListener('click', (e) => {
-        if (e.target === popup) closePopup();
+        if (e.target === popup) {
+            closePopup();
+        }
     });
-});
+  });
