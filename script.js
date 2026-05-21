@@ -1172,7 +1172,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         popup.classList.add('active');
     }, 500);
-// }
+ }
 
     // Close actions
     const closePopup = () => {
