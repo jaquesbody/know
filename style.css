@@ -25,6 +25,7 @@ header {
     color: white;
     padding: 2rem;
     text-align: center;
+    margin-top: 1rem;
 }
 
 h1 { 
@@ -37,7 +38,7 @@ h1 {
 .subtitle { 
     font-size: 1.1rem; 
     opacity: 0.95; 
-    margin-bottom: 0.5rem;
+    /*margin-bottom: 0.5rem;*/
 }
 
 .intro-box {
@@ -599,22 +600,24 @@ footer {
     margin: 0 !important;
     background: transparent; /* Optional: ensures no background line */
 }
-/* Hide the deeperdive nav button */
+/* Hide the deeperdive nav button 
 .nav-btn:has(+ .section-card#section-deeperdive) {
     display: none;
-}
-
+}*/
+/*
 #section-deeperdive {
-    display: block !important;
-    background: transparent !important;
-    box-shadow: none !important;
+  /*  display: block !important;
+    background: #00d084 !important;
+    font-weight: bolder;
+    box-shadow: black !important;
     padding: 0 !important;
     margin-top: 1.5rem !important;
     margin-bottom: 1.5rem !important;
     animation: none !important;
     max-width: 100% !important;
 }
-
+*/
+/*
 #section-deeperdive .intro-box {
     max-width: 100% !important;
     margin-left: 0 !important;
@@ -784,6 +787,7 @@ footer {
 
     .provider-link {
         padding: 0.5rem 0.8rem;
+        margin-top: 0.5rem;
         font-size: 0.75rem;
     }
 

@@ -1,6 +1,66 @@
+// Define the navigation order: 'type' can be 'button' or 'title'
+//const navStructure = [
+//    { type: 'title', text: 'Getting Started'},//title 
+//    { type: 'button', id: 'whatsatstake'},
+//    { type: 'button', id: 'whatcanyoudo'},
+//    { type: 'button', id: 'intro'},
+//    { type: 'button', id: 'quickwins'},
+//    { type: 'title', text: 'Deep Dive' },//title
+//    { type: 'button', id: 'deepdive'},
+//    { type: 'button', id: 'dns'},
+//    { type: 'button', id: 'vpn'},
+//    { type: 'button', id: 'email'},
+//    { type: 'button', id: 'messaging'},    
+//    { type: 'button', id: 'passwords'},
+//    { type: 'button', id: 'browser'},    
+//    { type: 'button', id: 'calendar'},
+//    { type: 'button', id: 'cloud'},
+//   { type: 'button', id: 'video'},    
+//    { type: 'button', id: 'office'},
+//    { type: 'button', id: 'ai'},
+//    { type: 'button', id: 'google'},
+//    { type: 'button', id: 'microsoft'},
+//    { type: 'button', id: 'meta'},
+//    { type: 'button', id: 'maintenance'},
+//    { type: 'title', text: 'Next Level'},//title
+//    { type: 'button', id: 'nextlevel'}
+//];
+
 // CHUNK 2A: Network Layer (DNS, VPN, Router)
 const networkData = {
-"intro": {
+    "whatisatstake": 
+    {
+        id: "whatisatstake",
+        title: "What is at stake?",
+        icon: "🔍",
+        html: `
+        
+        Your digital profile isn't just your search history. It includes your passwords, intimate emails, contacts, location history, the metadata of your daily life (dates, times, durations etc) and a whole lot more. Your data can be sold to brokers and collected by governments, used to surveil you, it can be exposed in breaches and will be used to sell to you.<br><br>
+        <strong>You should control what personal data you share and to who.</strong>
+    `
+    },
+
+    "whatcanyoudo": 
+    {
+        id: "whatcanyoudo",
+        title: "What can you do?",
+        icon: "🔍",
+        html: `
+        
+        By reducing the amount of data you leak unknowingly or give away freely without thinking, you can limit the effects of data collection.
+        <br><br>
+        If this is news to you and a little confusing, have a quick read of <strong>Understanding Your Digital Profile</strong> and if you do nothing else go to <strong>10 Quick Digital Privacy Wins</strong> and start reclaiming your digital privacy.
+        <br><br>
+        Then below there are more detailed steps to greater privacy.
+        <br><br> 
+        <strong>Tick off items as you go</strong><br>
+        Click 'Done' when you've finished a section<br>
+        <strong>Don't rush, take your time</strong><br>
+        Make some small changes first  
+    `
+    },
+
+    "intro": {
     id: "intro",
     title: "Understanding Your Digital Profile",
     icon: "🛡️",
@@ -109,6 +169,12 @@ const networkData = {
         <p><strong>It's your data, your privacy and your right.</strong></p>
 
         <h3>Here's a few resources to check out</h3>
+        <ul class="checklist-interactive">
+            <li><input type="checkbox"><span style="display: inline;"><a href="https://justdeleteme.xyz" target="_blank">Just Delete Me</a> - simply search for a company and follow the instructions</span></li>
+            <li><input type="checkbox"><span style="display: inline;"><a href="https://coveryourtracks.eff.org" target="_blank">Cover Your Tracks</a> - find out how well your browser protects you from tracking</span></li>
+            <li><input type="checkbox"><span style="display: inline;"><a href="https://ipleak.net" target="_blank">IP Leak</a> - Is your IP address and location being leaked?</span></li>
+        </ul>
+
         <p>We also highly recommend checking out these privacy advocates for a deeper dive on all things digital privacy and security.</p>
         <ul class="checklist-interactive">
             <li><input type="checkbox"><span style="display: inline;"><a href="https://www.youtube.com/@NaomiBrockwellTV" target="_blank">Naomi Brockwell</a> - simple, clear YouTube videos</span></li>
@@ -246,23 +312,18 @@ const networkData = {
     `
 },
 
-"deeperdive": {
-    id: "deeperdive",
+"deeperdive": 
+{
+  //  id: "deeperdive",
     title: "More steps to greater privacy",
-    icon: "🔍",
+    //icon: "🔍",
     html: `
-        <div class="intro-box">
-            <div class="intro-section">
-                <div class="intro-header" onclick="toggleIntroSection(this)">
-                    <strong>More steps to greater privacy</strong>
-                    <span class="intro-arrow">▲</span>
-                </div>
-                <div class="intro-content">
-                    Below is a deeper dive into regaining even more online privacy, by targeting your network and connections, understanding email, passwords and browsers a bit better, dialling back AI's reach and zooming in on Big Tech.<br><br>Take this at your own pace, tick off items as you go, click 'Done' when you've finished a section, make the small changes that will stick and watch as you start to regain your privacy.
-                </div>
-            </div>
-        </div>
-    `
+        
+    Below is a deeper dive into regaining even more online privacy, by targeting your network and connections, understanding email, passwords and browsers a bit better, dialling back AI's reach and zooming in on Big Tech.<br><br>
+    <strong>Take this at your own pace</strong><br>
+    Make small changes that will stick<br>
+    <strong>Watch as you start to regain your privacy</strong>
+   `
 },
 
 "dns": {
@@ -274,7 +335,7 @@ const networkData = {
         <p><strong>What is it?</strong> DNS translates human-readable web addresses (e.g., www.google.com) into machine-readable IP addresses (e.g., 142.250.190.4). By default, your Internet Service Provider (ISP) (e.g., Virgin Media, BT, EE, Sky) handles this, allowing them to see every website you visit.</p>
         <p><strong>What about privacy?</strong> Without a privacy-focused DNS, your ISP and default DNS providers build a complete log of your browsing history. This data can be sold to advertisers, used to throttle your connection speeds, or handed over to authorities without a warrant in some jurisdictions. The default DNS providers are usually Google's 8.8.8.8 or Cloudflare's 1.1.1.1.</p>
         
-        <h3 class="providers-heading">Providers</h3>
+        <h3 class="providers-heading">Privacy Providers</h3>
         <ul class="providers-list">
             <li><a href="https://nextdns.io" target="_blank" class="provider-link">NextDNS</a></li>
             <li><a href="https://quad9.net" target="_blank" class="provider-link">Quad9 DNS</a></li>
@@ -292,13 +353,14 @@ const networkData = {
         
         <p>We recommend <strong>NextDNS</strong>. It is a privacy-focused, configurable DNS provider that blocks ads, trackers, and malware at the network level.</p>
         <ul class="checklist-interactive">
-            <li><input type="checkbox"> Visit <a href="https://nextdns.io" target="_blank">NextDNS.io</a> and create a free account.</li>
+            <li><input type="checkbox"> Visit<a href="https://nextdns.io" target="_blank">NextDNS.io</a>and create a free account.</li>
             <li><input type="checkbox"> Set up a "Profile" for each specific device (Mobile, Laptop, Router).</li>
             <li><input type="checkbox"> On your mobile and laptop download the NextDNS app (Android/iOS/Windows/Mac) and log in.</li>
             <li><input type="checkbox"> Follow the simple Setup Guide for the specific device and operating system.</li>
             <li><input type="checkbox"> Set it up on your router for whole-home coverage. Login to your router and enter your NextDNS ID into your router's DNS settings (usually under WAN/Internet settings).</li>
             <li><input type="checkbox"> On your preferred browser go to Settings > Network (or similar) and enable "Use Secure DNS" and select "Custom" and enter your NextDNS URL.</li>
             <li><input type="checkbox"> Tip: Start with conservative blocklists and if a website breaks, simply add its domain to the "Allowlist" in your NextDNS dashboard (e.g., example.com, not the full URL).</li>
+            <li><input type="checkbox"><span style="display: inline;"><a href="https://ipleak.net" target="_blank">IP Leak</a> - After setting up your private DNS, test to see if its leaking?</span></li>
         </ul>
 
         <div style="text-align: center; margin-top: 2rem; padding-top: 1.5rem;">
@@ -321,7 +383,7 @@ const networkData = {
         <p><strong>What is it?</strong> A VPN creates an encrypted tunnel between your device and a VPN server. All your internet traffic passes through this server, masking your real IP address and location from the websites you visit.</p>
         <p><strong>What about privacy?</strong> Without a VPN, your ISP can see every unencrypted site you visit and can throttle your speed for specific activities (like streaming). On public Wi-Fi, hackers on the same network can intercept your data (passwords, emails) if the site doesn't use HTTPS.</p>
 
-        <h3>Providers:</h3>
+        <h3>Privacy Providers:</h3>
         <ul class="providers-list">
             <li><a href="https://proton.me/vpn" target="_blank" class="provider-link">Proton VPN</a></li>
             <li><a href="https://www.brave.com/firewall-vpn/" target="_blank" class="provider-link">Brave VPN</a></li>
@@ -339,11 +401,12 @@ const networkData = {
 
         <p>We recommend <strong>Proton VPN</strong>. It is open-source, based in Switzerland (strong privacy laws), and has a strict "No-Logs" policy.</p>
         <ul class="checklist-interactive">
-            <li><input type="checkbox"> Download the app from <a href="https://proton.me/vpn" target="_blank">Proton.me/vpn</a></li>
+            <li><input type="checkbox"> Download the app from<a href="https://proton.me/vpn" target="_blank">Proton.me/vpn</a></li>
             <li><input type="checkbox"> Create a free account (no credit card required).</li>
             <li><input type="checkbox"> Install the app on your phone and computer.</li>
             <li><input type="checkbox"> Connect to the "Fastest" server or a specific country.</li>
             <li><input type="checkbox"> Tip: Add the VPN to your easy access menu, so you can switch it on and off easily as some sites (e.g. banking apps) sometimes stop you using them.</li>
+            <li><input type="checkbox"><span style="display: inline;"><a href="https://ipleak.net" target="_blank">IP Leak</a> - After setting up your VPN, test to see if its leaking your location?</span></li>
         </ul>
 
         <div style="text-align: center; margin-top: 2rem; padding-top: 1.5rem;">
@@ -361,14 +424,14 @@ const networkData = {
 const identityData = {
    "email": {
     id: "email",
-    title: "Emails",
+    title: "Email",
     icon: "📧",
     html: `
-        <h2>Email & Personal Details</h2>
+        <h2>Email</h2>
         <p><strong>What is it?</strong> Your email is your digital identity. It links to banking, social media, and shopping accounts. Using a single email address creates a centralised target for data brokers and hackers.</p>
         <p><strong>What about privacy?</strong> Using yourname@gmail.com everywhere means if one service is breached, attackers can use that email to try password resets on your bank, social media, and other accounts (Credential Stuffing). It also allows trackers to link your shopping habits to your email address.</p>
 
-        <h3>Providers:</h3>
+        <h3>Privacy Providers:</h3>
         <ul class="providers-list">
             <li><a href="https://proton.me/mail" target="_blank" class="provider-link">Proton Mail</a></li>
             <li><a href="https://simplelogin.io" target="_blank" class="provider-link">SimpleLogin</a></li>
@@ -420,7 +483,7 @@ const identityData = {
             <p><strong>What is it?</strong> Messaging apps are a gateway to many of your relationships (who you call) and your habits - when you call, where you call from and for how long.</p>
             <p><strong>What about privacy?</strong> Over 3 billion people use WhatsApp, although they dont see your messages, they do collect a lot of data from your phone, which can be collated to build a digital profile of you to use in Meta's advertising.</p>
 
-            <h3>Providers:</h3>
+            <h3>Privacy Providers:</h3>
             <ul class="providers-list">
                 <li><a href="https://signal.org" target="_blank" class="provider-link">Signal</a></li>
                 <li><a href="https://simplex.chat" target="_blank" class="provider-link">SimpleX Chat</a></li>
@@ -462,7 +525,7 @@ const identityData = {
             <p><strong>What is it?</strong> Passwords are the first line of defence. Weak or reused passwords are the cause of 80% of data breaches. A good Password Manager and Two-Factor Authentication (2FA) app makes online life easier and more secure.</p>
             <p><strong>What about privacy?</strong> If you use an easy to guess password (e.g. Password123) or even reuse a password, a single breach on a website can lead to attackers trying that same password on your bank, email, and social media. SMS-text-based 2FA (those 6 digit confirmation codes) is also insecure and vulnerable to SIM-swapping attacks.</p>
 
-            <h3>Providers:</h3>
+            <h3>Privacy Providers:</h3>
             <ul class="providers-list">
                 <li><a href="https://proton.me/pass" target="_blank" class="provider-link">Proton Pass</a></li>
                 <li><a href="https://bitwarden.com/products/personal/" target="_blank" class="provider-link">Bitwarden</a></li>
@@ -504,7 +567,7 @@ const identityData = {
             <p><strong>What is it?</strong> Your browser is the window to the internet, it's how you access websites, email services and do your shopping. Your Search Engine is how you interact with the browser to search for online information</p>
             <p><strong>What about privacy?</strong> Default browsers like Chrome and Edge will track your browsing, sell data to advertisers and integrate AI that harvests your inputs. Default search engines will also record and track your search history and keystrokes, even if you dont click 'search' to train AI models and build a profile of every site you visit.</p>
             
-            <h3>Providers:</h3>
+            <h3>Privacy Providers:</h3>
             <ul class="providers-list">
                 <li><a href="https://brave.com/download" target="_blank" class="provider-link">Brave Browser & Search</a></li>
                 <li><a href="https://mullvad.net/en/browser" target="_blank" class="provider-link">Mullvad Browser</a></li>
@@ -527,6 +590,7 @@ const identityData = {
                 <li><input type="checkbox">Import your bookmarks (optional, but easy).</li>
                 <li><input type="checkbox">Go to Settings > Shields and ensure "Block Fingerprinting" and "Block Cookies" are turned on.</li>
                 <li><input type="checkbox"><span style="display: inline;"><strong>Brave Search:</strong> In Settings > Search Engine, set the default to Brave Search.</span></li>
+                <li><input type="checkbox"><span style="display: inline;"><a href="https://coveryourtracks.eff.org" target="_blank">Cover Your Tracks</a> - find out how well your browser now protects you from tracking</span></li>
             </ul>
 
             <div style="text-align: center; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color);">
@@ -542,9 +606,9 @@ const identityData = {
         html: `
             <h2>Calendar</h2>
             <p><strong>What is it?</strong> Calendars such as Google, Outlook or your defaul provider, are often accessed via your account and synced across devices. By default, the provider has full access.</p>
-            <p><strong>What happens without it?</strong> Your calendar is usually NOT encrypted, so your provider can see your schedule, any private meetings, birthdays, medical appointments or when and where you go on holiday. This can all be used to build an accurate profile of your personal life.</p>
+            <p><strong>What about privacy?</strong> Your calendar is usually NOT encrypted, so your provider can see your schedule, any private meetings, birthdays, medical appointments or when and where you go on holiday. This can all be used to build an accurate profile of your personal life.</p>
 
-            <h3>Providers:</h3>
+            <h3>Privacy Providers:</h3>
             <ul class="providers-list">
                 <li><a href="https://proton.me/calendar" target="_blank" class="provider-link">Proton Calendar</a></li>
                 <li><a href="https://tuta.com/calendar" target="_blank" class="provider-link">Tuta Calendar</a></li>
@@ -583,9 +647,9 @@ const identityData = {
         html: `
             <h2>Cloud Storage</h2>      
             <p><strong>What is it?</strong> Cloud storage (Google Drive, OneDrive, Dropbox) stores your files on remote servers. By default, providers can scan your files for content (to serve ads or for legal compliance) and hold the encryption keys.</p>
-            <p><strong>What happens without it?</strong> Providers can scan your files for "illegal content" or keywords to train their AI. If their servers are breached, your unencrypted data is exposed. Legal requests can force them to hand over your files without your knowledge.</p>
+            <p><strong>What about privacy?</strong> Providers can scan your files for "illegal content" or keywords to train their AI. If their servers are breached, your unencrypted data is exposed. Legal requests can force them to hand over your files without your knowledge.</p>
 
-            <h3>Providers:</h3>
+            <h3>Privacy Providers:</h3>
             <ul class="providers-list">
                 <li><a href="https://proton.me/drive" target="_blank" class="provider-link">Proton Drive</a></li>
                 <li><a href="https://tuta.com/drive" target="_blank" class="provider-link">Tuta Drive</a></li>
@@ -625,9 +689,9 @@ const identityData = {
         html: `
             <h2>Video Conferencing</h2>
             <p><strong>What is it?</strong> We are all familiar with Zoom, Teams, Meets or WhatsApp video calls, they can be great to connect with family, friends or colleagues.</p>
-            <p><strong>What happens without it?</strong> Although providers often do offer an encrypted option, these are sometimes not switched on as default, do not apply to group meetings or limit the apps functionality when they are switched on.</p>
+            <p><strong>What about privacy?</strong> Although providers often do offer an encrypted option, these are sometimes not switched on as default, do not apply to group meetings or limit the apps functionality when they are switched on.</p>
 
-            <h3>Providers:</h3>
+            <h3>Privacy Providers:</h3>
             <ul class="providers-list">
                 <li><a href="https://proton.me/meet" target="_blank" class="provider-link">Proton Meet</a></li>
                 <li><a href="https://talk.brave.com" target="_blank" class="provider-link">Brave Talk</a></li>
@@ -666,9 +730,9 @@ const identityData = {
         html: `
             <h2>Office Tools</h2>
             <p><strong>What is it?</strong> Simply put, Microsoft Word and Excel (Office or 365) and Google Docs and Sheets. We've all used them to create and store important documents from letters and contracts to financial records or medical data.</p>
-            <p><strong>What happens without it?</strong> These are private documents, or so you thought, both Microsoft and Google can access their content, especially if you have 'Editor' or AI features enabled. This information can then be used to train their AI models.</p>
+            <p><strong>What about privacy?</strong> These are private documents, or so you thought, both Microsoft and Google can access their content, especially if you have 'Editor' or AI features enabled. This information can then be used to train their AI models.</p>
 
-            <h3>Providers:</h3>
+            <h3>Privacy Providers:</h3>
             <ul class="providers-list">
                 <li><a href="https://fileverse.io" target="_blank" class="provider-link">Fileverse</a></li>
                 <li><a href="https://onlyoffice.com" target="_blank" class="provider-link">ONLYOFFICE</a></li>
@@ -822,15 +886,90 @@ const finalData = {
                 <li><input type="checkbox"><span style="display: inline;">Clean Up: Delete unused apps. They collect data even when not in use.</span></li>
                 <li><input type="checkbox"><span style="display: inline;">Clipboard: Clear your phone/desktop clipboard regularly.</span></li>
                 <li><input type="checkbox"><span style="display: inline;">Recent Files: Search your phone for, and delete, old screenshots, downloads, and edits. These often contain personal data you forgot about.</span></li>
-                <li><input type="checkbox"><span style="display: inline;"><a href="javascript:void(0);" onclick="openCalendarReminder()">Create a quarterly calendar reminder</a> to delete unused apps, review settings and permissions, send opt out emails, unsubscribe from pointless emails, change passwords, and check Have I Been Pwned.</span></li>
+                <li><input type="checkbox"><span style="display: inline;"><a href="javascript:void(0);" onclick="openCalendarReminder()">Create a quarterly calendar reminder</a> to delete unused apps, review settings and permissions, send opt out emails, unsubscribe from pointless emails and check for data breaches.</span></li>
             </ul>    
     
             <div style="text-align: center; margin-top: 2rem; padding-top: 1.5rem;">
                 <button class="done-btn" onclick="toggleSectionComplete(this, 'maintenance')">Done</button>
             </div>
         `
+    },
+    "nextlevel": {
+        id: "nextlevel",
+        title: "Next Level Privacy",
+        icon: "🛠️",
+        html: `
+            <h2>Next Level Privacy</h2>
+            <p>If you've made it this far you have taken some major steps to improving your online digital privacy. Why not go to the next level with some further measures and gain greater privacy and sovereignty.</p>    
+
+            <ul class="checklist-interactive">
+                <h3>Decentralized social media</h3>
+                    <li><input type="checkbox"><span style="display: inline;"><strong>Nostr |</strong><a href="https://nostr.com/" target="_blank"> nostr.com</a></span></li>
+
+                    A censorship-resistant social media protocol, that does not depend on a single company and their servers, so you can't be banned or have your posts removed. Nostr runs across multiple relays that you choose, so you can move your profile, data and earnings between client-apps. Check out any of these apps to get started:
+                    <ul class="providers-list">
+                        <li><a href="https://yakihonne.com/" target="_blank" class="provider-link">Yakihonne</a></li>
+                        <li><a href="https://damus.io/android/" target="_blank" class="provider-link">Damus</a></li>
+                        <li><a href="https://primal.net/home" target="_blank" class="provider-link">Primal</a></li>
+                    </ul>
+                    <strong>Important note:</strong> You will generate a private key when you first login, called an 'nsec', you must keep this safe and never give it to anyone. This is your profile, your data, your freedom.
+                    <br><br>
+
+                <h3>Use cryptographic currency</h3>    
+                    <li><input type="checkbox"><span style="display: inline;"><strong>Bitcoin |</strong><a href="https://bitcoin.org/" target="_blank"> bitcoin.org</a></span></li>
+
+                    Make fast, secure transactions (without any intermediaries) peer-to-peer - pure financial sovereignty. Note that all Bitcoin transactions are publicly visible, compromising anonymity. Here's three great Bitcoin/Lightning wallets to check out:
+                    <ul class="providers-list">
+                        <li><a href="https://www.walletofsatoshi.com/" target="_blank" class="provider-link">Wallet of Satoshi</a></li>
+                        <li><a href="https://cakewallet.com/" target="_blank" class="provider-link">Cake</a></li>
+                        <li><a href="https://unstoppable.money/" target="_blank" class="provider-link">Unstoppable</a></li>
+                    </ul>
+
+                    <li><input type="checkbox"><span style="display: inline;"><strong>Zcash |</strong><a href="https://z.cash/" target="_blank"> z.cash</a></span></li>
+                    Zcash offers enhanced privacy features through its shielded transaction mechanism, allowing you to make private transactions without revealing addresses or amounts on the public blockchain. Here's three Zcash wallets to check out:
+                    <ul class="providers-list">
+                        <li><a href="https://zodl.com/" target="_blank" class="provider-link">Zodl</a></li>
+                        <li><a href="https://brave.com/wallet/" target="_blank" class="provider-link">Brave</a></li>
+                        <li><a href="https://unstoppable.money/" target="_blank" class="provider-link">Unstoppable</a></li>
+                    </ul>
+
+                    <li><input type="checkbox"><span style="display: inline;"><strong>Monero |</strong><a href="https://www.getmonero.org/" target="_blank"> getmonero.org</a></span></li>
+                    Monero employs advanced ring signatures and stealth addresses to provide enhanced privacy features, enabling you to make private payments without revealing transaction details. Check out these Monero wallets:
+                    <ul class="providers-list">
+                        <li><a href="https://cakewallet.com/" target="_blank" class="provider-link">Cake</a></li>
+                        <li><a href="https://unstoppable.money/" target="_blank" class="provider-link">Unstoppable</a></li>
+                    </ul>
+                    
+                    <strong>Important note:</strong> For full sovereignty and greater privacy allways choose a Self-Custody wallet - not your keys, not your money. You will generate a private seed phrase, often 12-24 words, when you first open a wallet, you must keep these safe and never give them to anyone. This is your financial freedom, it's your responsibility. 
+                    <br><br>
+
+                <h3>Run a home server</h3>
+                    <li><input type="checkbox"><span style="display: inline;">Run a Bitcoin node (or Zcash or Monero) - verify your own transactions and gain greater independence.</span></li>
+                    <li><input type="checkbox"><span style="display: inline;">Run a Nostr node - secure the protocol for future generations and achieve greater data sovereignty.</span></li>
+                    <li><input type="checkbox"><span style="display: inline;">Host your own cloud for emails, passwords, files and loads more. Stop depending on third parties.</span></li>
+                    Here's three great options:
+                    <ul class="providers-list">
+                        <li><a href="https://umbrel.com/" target="_blank" class="provider-link">Umbrel</a></li>
+                        <li><a href="https://start9.com/" target="_blank" class="provider-link">Start9</a></li>
+                        <li><a href="https://raspberrytips.com/raspberry-pi-server-starting-guide/" target="_blank" class="provider-link">RaspberryPi</a></li>
+                    </ul>
+
+                <h3>Physical things to do</h3>
+                    <li><input type="checkbox"><span style="display: inline;">Protect you pin/pattern - shield your screen from people and remember to clean it.</span></li>
+                    <li><input type="checkbox"><span style="display: inline;">Cover your laptop webcam when not in use.</span></li>
+                    <li><input type="checkbox"><span style="display: inline;">Use cash, it leaves no trail.</span></li>
+                    <li><input type="checkbox"><span style="display: inline;">Use parcel lockers, collection points or a PO box, so not to reveal your home address.</span></li>
+                    <li><input type="checkbox"><span style="display: inline;">Like using Uber? Don't use your home address, walk to the corner of the street.</span></li>
+                    <li><input type="checkbox"><span style="display: inline;">Consider getting a Google Pixel phone and install <a href="https://grapheneos.org/" target="_blank"> GrapheneOS</a></span></li>
+            </ul>    
+    
+            <div style="text-align: center; margin-top: 2rem; padding-top: 1.5rem;">
+                <button class="done-btn" onclick="toggleSectionComplete(this, 'nextlevel')">Done</button>
+            </div>
+        `
     }
 };
+
 
 // --- MERGE ALL DATA OBJECTS ---
 const fullGuideData = { ...networkData, ...identityData, ...platformData, ...finalData };
