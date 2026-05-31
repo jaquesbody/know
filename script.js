@@ -910,7 +910,7 @@ const finalData = {
                     <ul class="providers-list">
                         <li><a href="https://yakihonne.com/" target="_blank" class="provider-link">Yakihonne</a></li>
                         <li><a href="https://damus.io/android/" target="_blank" class="provider-link">Damus</a></li>
-                        <li><a href="https://primal.net/home" target="_blank" class="provider-link">Primal</a></li>
+                        <li><a href="https://amethyst.social/" target="_blank" class="provider-link">Amethyst</a></li>
                     </ul>
                     <strong>Important note:</strong> You will generate a private key when you first login, called an 'nsec', you must keep this safe and never give it to anyone. This is your profile, your data, your freedom.
                     <br><br>
