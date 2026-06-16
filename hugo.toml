@@ -1,0 +1,6 @@
+baseURL = "https://jaquesbody.github.io/know/"
+languageCode = "en-gb"
+title = "Know"
+
+[markup] [markup.goldmark] [markup.renderer]
+      unsafe = true
