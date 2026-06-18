@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<style>
+  :root {
+    --accent:       #ff5c00;
+    --accent-hover: #ff7a2e;
+    --accent-muted: rgba(255, 92, 0, 0.12);
+  }
+</style>
+
+<article class="know-page know-page--complete">
+  <div class="container container--narrow">
+
+    <header class="know-page__header">
+      <h1 class="know-page__title">{{ .Title }}</h1>
+    </header>
+
+    <div class="know-page__body">
+      {{ .Content }}
+    </div>
+
+    <div class="know-page__actions">
+      <a href="/know/next-level/" class="btn-accent">Next Level</a>
+      <a href="/know/" class="btn-ghost">&larr; Back to the guide</a>
+    </div>
+
+  </div>
+</article>
+
+{{ end }}

@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<style>
+  :root {
+    --accent:       #ff5c00;
+    --accent-hover: #ff7a2e;
+    --accent-muted: rgba(255, 92, 0, 0.12);
+  }
+</style>
+
+<article class="know-page">
+  <div class="container container--narrow">
+
+    <header class="know-page__header">
+      <h1 class="know-page__title">{{ .Title }}</h1>
+      {{ with .Description }}
+      <p class="know-page__desc">{{ . }}</p>
+      {{ end }}
+    </header>
+
+    <div class="know-page__body">
+      {{ .Content }}
+    </div>
+
+    <div class="know-page__back">
+      <a href="/know/" class="btn-ghost">&larr; Back to the guide</a>
+    </div>
+
+  </div>
+</article>
+
+{{ end }}
