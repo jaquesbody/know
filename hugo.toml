@@ -1,6 +1,7 @@
 baseURL = "https://jaquesbody.github.io/know/"
 languageCode = "en-gb"
 title = "Know"
+publishDir = "docs"
 
 disableKinds = ["taxonomy", "term"]
 

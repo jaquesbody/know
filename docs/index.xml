@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Know</title>
+    <link>https://jaquesbody.github.io/know/</link>
+    <description>Recent content on Know</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <atom:link href="https://jaquesbody.github.io/know/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10 Quick Digital Privacy Wins</title>
+      <link>https://jaquesbody.github.io/know/sections/04-quick-wins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/04-quick-wins/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Install Brave browser&lt;/strong&gt; &lt;em&gt;(5 mins)&lt;/em&gt;&#xA;Visit &lt;a href=&#34;https://brave.com/download&#34;&gt;brave.com/download&lt;/a&gt;. They don&amp;rsquo;t track your usage, collect data or advertise to you. Turn on Shields to block adverts, cookies and tracking. Give Brave Search and their AI Leo a go too — they don&amp;rsquo;t store your searches or conversations.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Set up a Proton account&lt;/strong&gt; &lt;em&gt;(10 mins)&lt;/em&gt;&#xA;Visit &lt;a href=&#34;https://proton.me&#34;&gt;proton.me&lt;/a&gt; then download their password manager &lt;a href=&#34;https://proton.me/pass/download&#34;&gt;Proton Pass&lt;/a&gt;. Set super strong passwords, sync them across multiple devices, no need to remember them or copy and paste them.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://jaquesbody.github.io/know/sections/15-ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/15-ai/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What is it?&lt;/strong&gt; Modern AI features (Copilot, Gemini, OpenAI, Claude) are constantly listening, reading and using your data to train their models — scraped from your personal emails, photos, private messages, documents and chat logs. Many of these smart features are on by default, hidden deep in settings, with new capabilities enabled on every software update without your explicit consent.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;How to limit AI&amp;rsquo;s reach&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Check Settings: Go to every app and device settings. Look for options similar to &amp;ldquo;Help Improve&amp;rdquo;, &amp;ldquo;Personalise&amp;rdquo;, &amp;ldquo;AI Features&amp;rdquo; or &amp;ldquo;Smart Features&amp;rdquo; — turn them off.&lt;/li&gt;&#xA;&lt;li&gt;Disable Cloud Processing: Turn off any &amp;ldquo;Send to Cloud&amp;rdquo; options for voice assistants and keyboards.&lt;/li&gt;&#xA;&lt;li&gt;Local AI: Install a local model on your device (e.g. Llama3.2:1B) — none of your data is leaked.&lt;/li&gt;&#xA;&lt;li&gt;Private AI: Use Brave&amp;rsquo;s AI Leo, built into the Brave browser, which is designed to not store your chat history for training.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Browser &amp; Search Engine</title>
+      <link>https://jaquesbody.github.io/know/sections/10-browser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/10-browser/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What is it?&lt;/strong&gt; Your browser is the window to the internet — it&amp;rsquo;s how you access websites, email services and do your shopping. Your search engine is how you interact with the browser to find online information.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;What about privacy?&lt;/strong&gt; Default browsers like Chrome and Edge track your browsing, sell data to advertisers and integrate AI that harvests your inputs. Default search engines record and track your search history and keystrokes — even if you don&amp;rsquo;t click search — to train AI models and build a profile of every site you visit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Calendar</title>
+      <link>https://jaquesbody.github.io/know/sections/11-calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/11-calendar/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What is it?&lt;/strong&gt; Calendars such as Google, Outlook or your default provider are accessed via your account and synced across devices. By default, the provider has full access.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;What about privacy?&lt;/strong&gt; Your calendar is usually not encrypted, so your provider can see your schedule, private meetings, birthdays, medical appointments and when and where you go on holiday. All of this can be used to build an accurate profile of your personal life.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloud Storage</title>
+      <link>https://jaquesbody.github.io/know/sections/12-cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/12-cloud/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What is it?&lt;/strong&gt; Cloud storage (Google Drive, OneDrive, Dropbox) stores your files on remote servers. By default, providers can scan your files for content — to serve ads or for legal compliance — and hold the encryption keys.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;What about privacy?&lt;/strong&gt; Providers can scan your files for keywords to train their AI. If their servers are breached, your unencrypted data is exposed. Legal requests can force them to hand over your files without your knowledge.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Domain Name Service (DNS)</title>
+      <link>https://jaquesbody.github.io/know/sections/05-dns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/05-dns/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What is it?&lt;/strong&gt; DNS translates human-readable web addresses (e.g. &lt;a href=&#34;https://www.google.com&#34;&gt;www.google.com&lt;/a&gt;) into machine-readable IP addresses (e.g. 142.250.190.4). By default, your Internet Service Provider (ISP) handles this, allowing them to see every website you visit.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;What about privacy?&lt;/strong&gt; Without a privacy-focused DNS, your ISP and default DNS providers build a complete log of your browsing history. This data can be sold to advertisers, used to throttle your connection speeds, or handed over to authorities without a warrant in some jurisdictions. The default DNS providers are usually Google&amp;rsquo;s 8.8.8.8 or Cloudflare&amp;rsquo;s 1.1.1.1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Email</title>
+      <link>https://jaquesbody.github.io/know/sections/07-email/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/07-email/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What is it?&lt;/strong&gt; Your email is your digital identity. It links to banking, social media, and shopping accounts. Using a single email address creates a centralised target for data brokers and hackers.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;What about privacy?&lt;/strong&gt; Using &lt;a href=&#34;mailto:yourname@gmail.com&#34;&gt;yourname@gmail.com&lt;/a&gt; everywhere means if one service is breached, attackers can use that email to try password resets on your bank, social media, and other accounts. It also allows trackers to link your shopping habits to your email address.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>https://jaquesbody.github.io/know/sections/17-google/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/17-google/</guid>
+      <description>&lt;p&gt;Google is the largest online data collector. They track your location, search history, YouTube views, Android phone usage — they read your emails, text messages, private documents, calendar, photos, what apps you install and a whole lot more. All of it used to build a comprehensive digital profile to target you with ads.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;How to limit Google&amp;rsquo;s reach&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Check Your Data: Visit &lt;a href=&#34;https://takeout.google.com/&#34;&gt;Google Takeout&lt;/a&gt; to download and review what they know about you.&lt;/li&gt;&#xA;&lt;li&gt;Remove Content: Use &lt;a href=&#34;https://support.google.com/websearch/answer/9673730&#34;&gt;Google&amp;rsquo;s Removal Tool&lt;/a&gt; to remove personal info from search results.&lt;/li&gt;&#xA;&lt;li&gt;Check out the alternative apps at &lt;a href=&#34;https://privacypack.org&#34;&gt;privacypack.org&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Give this comprehensive article a read — &lt;a href=&#34;https://tuta.com/blog/degoogle-list&#34;&gt;How to De-Google List&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Maintenance &amp; Habits</title>
+      <link>https://jaquesbody.github.io/know/sections/20-maintenance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/20-maintenance/</guid>
+      <description>&lt;p&gt;Privacy is not a one-time setup. It requires regular checks to ensure settings haven&amp;rsquo;t reverted and new threats are addressed. Don&amp;rsquo;t be overwhelmed — build habits that stick and take your time to implement changes.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Monthly Checklist&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Review Permissions: Check phone and desktop app permissions (Location, Camera, Mic). Revoke unused ones.&lt;/li&gt;&#xA;&lt;li&gt;Check for Breaches: Run your emails through &lt;a href=&#34;https://haveibeenpwned.com&#34;&gt;Have I Been Pwned&lt;/a&gt;. Change passwords immediately if breached.&lt;/li&gt;&#xA;&lt;li&gt;Update Settings: After OS updates, re-check privacy toggles (AI, Diagnostics, Smart Features).&lt;/li&gt;&#xA;&lt;li&gt;Clean Up: Delete unused apps — they collect data even when not in use.&lt;/li&gt;&#xA;&lt;li&gt;Clipboard: Clear your phone and desktop clipboard regularly.&lt;/li&gt;&#xA;&lt;li&gt;Recent Files: Search your phone for and delete old screenshots, downloads and edits. These often contain personal data you forgot about.&lt;/li&gt;&#xA;&lt;li&gt;Add a recurring reminder to your calendar every 3 months to: delete unused apps, review app permissions and settings, check Have I Been Pwned, unsubscribe from unwanted emails and change any compromised passwords.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Messaging</title>
+      <link>https://jaquesbody.github.io/know/sections/08-messaging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/08-messaging/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What is it?&lt;/strong&gt; Messaging apps are a gateway to your relationships and your habits — who you call, when you call, where you call from and for how long.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;What about privacy?&lt;/strong&gt; Over 3 billion people use WhatsApp. Although Meta can&amp;rsquo;t see your messages, they collect a lot of data from your phone which is used to build a digital profile for advertising.&lt;/p&gt;&#xA;&lt;p&gt;We highly recommend &lt;strong&gt;Signal&lt;/strong&gt; — it feels a lot like WhatsApp, it&amp;rsquo;s easy to use, they can&amp;rsquo;t read your messages and collect next to none of your data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Meta</title>
+      <link>https://jaquesbody.github.io/know/sections/19-meta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/19-meta/</guid>
+      <description>&lt;p&gt;Meta can track you across the web and collect a tonne of metadata — who you talk to, when, where and for how long — from WhatsApp, Facebook and Messenger, even if the content is encrypted. This metadata is used for advertising and profiling. They build &amp;ldquo;shadow profiles&amp;rdquo; of everyone you interact with, even if they don&amp;rsquo;t have an account, and use this data to micro-target ads and influence your online behaviour.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Microsoft</title>
+      <link>https://jaquesbody.github.io/know/sections/18-microsoft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/18-microsoft/</guid>
+      <description>&lt;p&gt;Windows 10/11, Edge, Hotmail/Outlook and OneDrive all collect extensive data — including typing patterns, conversations, document and photo contents, location, file metadata and browsing habits. Microsoft also holds your BitLocker encryption keys on their servers by default, giving them (and potentially law enforcement) access without your say.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;How to limit Microsoft&amp;rsquo;s reach&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Limit data collection: Go to Settings &amp;gt; Privacy &amp;amp; Security. Turn off &amp;ldquo;Activity History&amp;rdquo;, &amp;ldquo;Diagnostic data&amp;rdquo; and &amp;ldquo;Tailored Experiences&amp;rdquo;.&lt;/li&gt;&#xA;&lt;li&gt;Follow this tutorial to access &lt;a href=&#34;https://support.microsoft.com/en-us/windows/find-your-bitlocker-recovery-key-6b71ad27-0b89-ea08-f143-056f5ab347d6&#34;&gt;BitLocker&lt;/a&gt; and remove Microsoft&amp;rsquo;s access to your encryption keys.&lt;/li&gt;&#xA;&lt;li&gt;Reduce bloat and excess data telemetry on your Windows laptop by downloading and running &lt;a href=&#34;https://privacy.sexy&#34;&gt;privacy.sexy&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Move sensitive files to a local drive, disable OneDrive or use an encrypted cloud service.&lt;/li&gt;&#xA;&lt;li&gt;Consider using Linux — an entirely different operating system (requires some technical know-how).&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Next Level Privacy</title>
+      <link>https://jaquesbody.github.io/know/next-level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/next-level/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;ve made it this far you have taken some major steps to improving your online digital privacy. Here are some further measures to gain greater privacy and sovereignty.&lt;/p&gt;&#xA;&lt;h3 id=&#34;decentralised-social-media&#34;&gt;Decentralised social media&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Nostr |&lt;/strong&gt; &lt;a href=&#34;https://nostr.com/&#34;&gt;nostr.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;A censorship-resistant social media protocol that does not depend on a single company or their servers — so you can&amp;rsquo;t be banned or have your posts removed. Nostr runs across multiple relays that you choose, so you can move your profile, data and earnings between client apps. Check out any of these to get started:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Office Tools</title>
+      <link>https://jaquesbody.github.io/know/sections/14-office/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/14-office/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What is it?&lt;/strong&gt; Microsoft Word and Excel and Google Docs and Sheets. We&amp;rsquo;ve all used them to create and store important documents — from letters and contracts to financial records and medical data.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;What about privacy?&lt;/strong&gt; These are private documents, or so you thought. Both Microsoft and Google can access their content, especially if you have Editor or AI features enabled. This information can then be used to train their AI models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Passwords</title>
+      <link>https://jaquesbody.github.io/know/sections/09-passwords/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/09-passwords/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What is it?&lt;/strong&gt; Passwords are the first line of defence. Weak or reused passwords are the cause of 80% of data breaches. A good password manager and two-factor authentication (2FA) app makes online life easier and more secure.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;What about privacy?&lt;/strong&gt; If you use an easy to guess password (e.g. Password123) or reuse a password, a single breach on one website can lead to attackers trying that same password on your bank, email, and social media. SMS-based 2FA (those 6 digit confirmation codes) is also insecure and vulnerable to SIM-swapping attacks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Shopping</title>
+      <link>https://jaquesbody.github.io/know/sections/16-shopping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/16-shopping/</guid>
+      <description>&lt;p&gt;Content coming soon.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding Your Digital Profile</title>
+      <link>https://jaquesbody.github.io/know/sections/03-digital-profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/03-digital-profile/</guid>
+      <description>&lt;h3 id=&#34;what-is-currently-happening&#34;&gt;What is currently happening?&lt;/h3&gt;&#xA;&lt;p&gt;You open an account to order some ink cartridges, book a train ticket, or reserve a table at a restaurant. You use a Gmail account to receive the confirmation and pop a reminder in your calendar app.&lt;/p&gt;&#xA;&lt;p&gt;In a matter of minutes you&amp;rsquo;ve just handed over your name, home address, email, phone number, location and card details to the retailer, the email provider, and data brokers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Video Conferencing</title>
+      <link>https://jaquesbody.github.io/know/sections/13-video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/13-video/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What is it?&lt;/strong&gt; We are all familiar with Zoom, Teams, Meet or WhatsApp video calls — they can be great for connecting with family, friends or colleagues.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;What about privacy?&lt;/strong&gt; Although providers often offer an encrypted option, it is sometimes not switched on by default, does not apply to group meetings, or limits the app&amp;rsquo;s functionality when enabled.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Brave Talk&lt;/strong&gt; is easy to use, built into the Brave browser, super private and you can screenshare too.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Virtual Private Network (VPN)</title>
+      <link>https://jaquesbody.github.io/know/sections/06-vpn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/06-vpn/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What is it?&lt;/strong&gt; A VPN creates an encrypted tunnel between your device and a VPN server. All your internet traffic passes through this server, masking your real IP address and location from the websites you visit.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;What about privacy?&lt;/strong&gt; Without a VPN, your ISP can see every unencrypted site you visit and can throttle your speed for specific activities like streaming. On public Wi-Fi, anyone on the same network can intercept your data — passwords, emails — if the site doesn&amp;rsquo;t use HTTPS.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What can you do?</title>
+      <link>https://jaquesbody.github.io/know/sections/02-what-can-you-do/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/02-what-can-you-do/</guid>
+      <description>&lt;p&gt;By reducing the amount of data you leak unknowingly or give away freely without thinking, you can limit the effects of data collection.&lt;/p&gt;&#xA;&lt;p&gt;If this is new to you, start with &lt;strong&gt;Understanding Your Digital Profile&lt;/strong&gt; then go straight to &lt;strong&gt;10 Quick Digital Privacy Wins&lt;/strong&gt; and begin reclaiming your digital privacy.&lt;/p&gt;&#xA;&lt;p&gt;Below that are more detailed steps to greater privacy.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tick off items as you go&lt;/strong&gt;&#xA;Click &amp;lsquo;Done&amp;rsquo; when you&amp;rsquo;ve finished a section&#xA;&lt;strong&gt;Don&amp;rsquo;t rush, take your time&lt;/strong&gt;&#xA;Make some small changes first&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is at stake?</title>
+      <link>https://jaquesbody.github.io/know/sections/01-what-is-at-stake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/sections/01-what-is-at-stake/</guid>
+      <description>&lt;p&gt;Your digital profile isn&amp;rsquo;t just your search history. It includes your passwords, intimate emails, contacts, location history, the metadata of your daily life (dates, times, durations) and a whole lot more. Your data can be sold to brokers and collected by governments, used to surveil you, exposed in breaches and used to sell to you.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;You should control what personal data you share and who you share it with.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>You&#39;re done</title>
+      <link>https://jaquesbody.github.io/know/complete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaquesbody.github.io/know/complete/</guid>
+      <description>&lt;p&gt;You&amp;rsquo;ve worked through every section. That&amp;rsquo;s not nothing — most people never get this far.&lt;/p&gt;&#xA;&lt;p&gt;Your data is harder to collect, your accounts are harder to crack and your digital life is more your own than it was when you started.&lt;/p&gt;&#xA;&lt;p&gt;Privacy is not a destination, it&amp;rsquo;s a habit. Come back every few months, check what&amp;rsquo;s changed and keep tightening things up.&lt;/p&gt;&#xA;&lt;p&gt;If you want to go further, &lt;a href=&#34;#&#34;&gt;Next Level&lt;/a&gt; is waiting.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
