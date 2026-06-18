@@ -1,0 +1,74 @@
+<div class="section-item{{ if eq .Params.type "big-tech" }} section-item--big-tech{{ end }}"
+     id="section-{{ .Params.order }}"
+     data-section-id="{{ .Params.order }}">
+
+  {{/* ---- Accordion trigger ---- */}}
+  <button class="section-item__trigger"
+          aria-expanded="false"
+          aria-controls="section-body-{{ .Params.order }}">
+    <span class="section-item__title">{{ .Title }}</span>
+    <span class="section-item__status" id="section-status-{{ .Params.order }}" aria-hidden="true"></span>
+    <svg class="section-item__chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+      <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+  {{/* ---- Accordion body ---- */}}
+  <div class="section-item__body" id="section-body-{{ .Params.order }}" hidden>
+
+    {{/* ---- Markdown content ---- */}}
+    <div class="section-item__content">
+      {{ .Content }}
+    </div>
+
+    {{/* ---- Providers (core-privacy only) ---- */}}
+    {{ if and .Params.providers (gt (len .Params.providers) 0) }}
+    <div class="section-item__providers">
+      <p class="section-item__label">Recommended providers</p>
+      <ul class="providers-list">
+        {{ range .Params.providers }}
+        <li>
+          <a href="{{ .url }}" class="provider-link" rel="noopener noreferrer" target="_blank">{{ .name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+    {{/* ---- Benefits (core-privacy only) ---- */}}
+    {{ if and .Params.benefits (gt (len .Params.benefits) 0) }}
+    <div class="section-item__benefits">
+      <p class="section-item__label">Benefits</p>
+      <ul class="benefits-list">
+        {{ range .Params.benefits }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+    {{/* ---- Further reading ---- */}}
+    {{ if and .Params.further_reading (gt (len .Params.further_reading) 0) }}
+    <div class="section-item__further">
+      <p class="section-item__label">Further reading</p>
+      <ul class="further-list">
+        {{ range .Params.further_reading }}
+        <li>
+          <a href="{{ .url }}" rel="noopener noreferrer" target="_blank">{{ .label }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+    {{/* ---- Done button ---- */}}
+    <div class="section-item__footer">
+      <button class="btn-accent section-item__done"
+              data-section-id="{{ .Params.order }}"
+              aria-label="Mark {{ .Title }} as complete">
+        Done
+      </button>
+    </div>
+
+  </div>
+</div>
