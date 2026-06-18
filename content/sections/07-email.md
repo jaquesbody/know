@@ -27,12 +27,12 @@ further_reading:
 
 We recommend **Proton Mail** — end-to-end encrypted and based in Switzerland. Do not use your real name or date of birth in the registration.
 
-- Sign up at [Proton Mail](https://proton.me/mail).
-- Install the app on your phone and computer.
-- Go to Settings > Privacy and Security to enable additional features.
-- Via Proton Pass, create email aliases to segregate sign-ups into separate groups — all emails forward to your main inbox. A few suggestions to get started:
+- [ ] Sign up at [Proton Mail](https://proton.me/mail).
+- [ ] Install the app on your phone and computer.
+- [ ] Go to Settings > Privacy and Security to enable additional features.
+- [ ] Via Proton Pass, create email aliases to segregate sign-ups into separate groups — all emails forward to your main inbox. A few suggestions to get started:
   - random.official@youralias.com (Banks, Government)
   - random.shopping@youralias.com (Online Stores, Subscriptions)
   - random.social@youralias.com (Social Media, Forums)
   - random.temp@youralias.com (One-off sign-ups, Newsletters)
-- Tip: Manage your email aliases at [Simple Login](https://app.simplelogin.io/auth/login) using your Proton login details.
+- [ ] Tip: Manage your email aliases at [Simple Login](https://app.simplelogin.io/auth/login) using your Proton login details.

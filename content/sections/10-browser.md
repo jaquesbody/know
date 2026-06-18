@@ -24,8 +24,8 @@ further_reading: []
 
 We recommend **Brave Browser and Search** — no ads, no tracking, no search logs and super easy to use.
 
-- Download from [Brave.com](https://brave.com/download).
-- Import your bookmarks (optional, but easy).
-- Go to Settings > Shields and ensure "Block Fingerprinting" and "Block Cookies" are turned on.
-- In Settings > Search Engine, set the default to Brave Search.
-- [Cover Your Tracks](https://coveryourtracks.eff.org) — find out how well your browser now protects you from tracking.
+- [ ] Download from [Brave.com](https://brave.com/download).
+- [ ] Import your bookmarks (optional, but easy).
+- [ ] Go to Settings > Shields and ensure "Block Fingerprinting" and "Block Cookies" are turned on.
+- [ ] In Settings > Search Engine, set the default to Brave Search.
+- [ ] [Cover Your Tracks](https://coveryourtracks.eff.org) — find out how well your browser now protects you from tracking.

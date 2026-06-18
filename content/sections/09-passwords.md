@@ -22,8 +22,8 @@ further_reading:
 
 We recommend **Proton Pass** — end-to-end encrypted, easy to use and synced between phones and laptops.
 
-- Download [Proton Pass](https://proton.me/pass).
-- Add login details and new passwords as you go — don't try to change all your passwords in one go.
-- Add the browser extension to your desktop and auto-fill passwords.
-- For greater security download [Proton Authenticator](https://proton.me/authenticator/download) and set up 2FA for critical accounts (Email, Bank, Social). You'll need to go into Settings for each app to find 2FA.
-- Tip: Password managers often copy passwords to your clipboard. Enable "Clear clipboard after X seconds" to prevent other apps from reading it.
+- [ ] Download [Proton Pass](https://proton.me/pass).
+- [ ] Add login details and new passwords as you go — don't try to change all your passwords in one go.
+- [ ] Add the browser extension to your desktop and auto-fill passwords.
+- [ ] For greater security download [Proton Authenticator](https://proton.me/authenticator/download) and set up 2FA for critical accounts (Email, Bank, Social). You'll need to go into Settings for each app to find 2FA.
+- [ ] Tip: Password managers often copy passwords to your clipboard. Enable "Clear clipboard after X seconds" to prevent other apps from reading it.

@@ -25,5 +25,5 @@ further_reading:
 
 We recommend **Proton Drive** — slick, easy to use, they can't see your files and you can easily back up your phone photos.
 
-- Download [Proton Drive](https://proton.me/drive/download).
-- Add a passcode and/or 2FA in Settings for added security.
+- [ ] Download [Proton Drive](https://proton.me/drive/download).
+- [ ] Add a passcode and/or 2FA in Settings for added security.

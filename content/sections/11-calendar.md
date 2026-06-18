@@ -23,5 +23,5 @@ further_reading:
 
 We really like **Proton Calendar** — it's slick, easy to use, they can't see your entries and you can easily sync between devices.
 
-- Download [Proton Calendar](https://proton.me/calendar/download).
-- If you want to import your current calendar from Google, go to Settings > Import from Google.
+- [ ] Download [Proton Calendar](https://proton.me/calendar/download).
+- [ ] If you want to import your current calendar from Google, go to Settings > Import from Google.

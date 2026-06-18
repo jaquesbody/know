@@ -23,6 +23,6 @@ further_reading: []
 
 We recommend **ONLYOFFICE** for compatibility and familiarity.
 
-- Download [ONLYOFFICE](https://www.onlyoffice.com/download-desktop).
-- If you prefer to stick with Microsoft or Google, check your settings for Editor or AI features and turn them off.
-- Move sensitive files to a local drive, disable OneDrive or use an encrypted cloud service.
+- [ ] Download [ONLYOFFICE](https://www.onlyoffice.com/download-desktop).
+- [ ] If you prefer to stick with Microsoft or Google, check your settings for Editor or AI features and turn them off.
+- [ ] Move sensitive files to a local drive, disable OneDrive or use an encrypted cloud service.

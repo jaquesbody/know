@@ -23,5 +23,5 @@ further_reading:
 
 **Brave Talk** is easy to use, built into the Brave browser, super private and you can screenshare too.
 
-- Simply visit [talk.brave.com](https://talk.brave.com).
-- Click the 'person +' icon to invite others via a link.
+- [ ] Simply visit [talk.brave.com](https://talk.brave.com).
+- [ ] Click the 'person +' icon to invite others via a link.

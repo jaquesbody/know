@@ -9,7 +9,7 @@ Google is the largest online data collector. They track your location, search hi
 
 **How to limit Google's reach**
 
-- Check Your Data: Visit [Google Takeout](https://takeout.google.com/) to download and review what they know about you.
-- Remove Content: Use [Google's Removal Tool](https://support.google.com/websearch/answer/9673730) to remove personal info from search results.
-- Check out the alternative apps at [privacypack.org](https://privacypack.org).
-- Give this comprehensive article a read — [How to De-Google List](https://tuta.com/blog/degoogle-list).
+- [ ] Check Your Data: Visit [Google Takeout](https://takeout.google.com/) to download and review what they know about you.
+- [ ] Remove Content: Use [Google's Removal Tool](https://support.google.com/websearch/answer/9673730) to remove personal info from search results.
+- [ ] Check out the alternative apps at [privacypack.org](https://privacypack.org).
+- [ ] Give this comprehensive article a read — [How to De-Google List](https://tuta.com/blog/degoogle-list).

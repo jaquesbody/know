@@ -9,8 +9,8 @@ Windows 10/11, Edge, Hotmail/Outlook and OneDrive all collect extensive data —
 
 **How to limit Microsoft's reach**
 
-- Limit data collection: Go to Settings > Privacy & Security. Turn off "Activity History", "Diagnostic data" and "Tailored Experiences".
-- Follow this tutorial to access [BitLocker](https://support.microsoft.com/en-us/windows/find-your-bitlocker-recovery-key-6b71ad27-0b89-ea08-f143-056f5ab347d6) and remove Microsoft's access to your encryption keys.
-- Reduce bloat and excess data telemetry on your Windows laptop by downloading and running [privacy.sexy](https://privacy.sexy).
-- Move sensitive files to a local drive, disable OneDrive or use an encrypted cloud service.
-- Consider using Linux — an entirely different operating system (requires some technical know-how).
+- [ ] Limit data collection: Go to Settings > Privacy & Security. Turn off "Activity History", "Diagnostic data" and "Tailored Experiences".
+- [ ] Follow this tutorial to access [BitLocker](https://support.microsoft.com/en-us/windows/find-your-bitlocker-recovery-key-6b71ad27-0b89-ea08-f143-056f5ab347d6) and remove Microsoft's access to your encryption keys.
+- [ ] Reduce bloat and excess data telemetry on your Windows laptop by downloading and running [privacy.sexy](https://privacy.sexy).
+- [ ] Move sensitive files to a local drive, disable OneDrive or use an encrypted cloud service.
+- [ ] Consider using Linux — an entirely different operating system (requires some technical know-how).

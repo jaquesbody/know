@@ -27,9 +27,9 @@ further_reading:
 
 We recommend **Proton VPN** — open-source, based in Switzerland with strong privacy laws, and a strict no-logs policy.
 
-- Download the app from [Proton.me/vpn](https://proton.me/vpn).
-- Create a free account — no credit card required.
-- Install the app on your phone and computer.
-- Connect to the "Fastest" server or a specific country.
-- Tip: Add the VPN to your easy access menu so you can switch it on and off quickly — some sites (e.g. banking apps) can block VPN connections.
-- [IP Leak](https://ipleak.net) — after setting up your VPN, test to see if it's leaking your location.
+- [ ] Download the app from [Proton.me/vpn](https://proton.me/vpn).
+- [ ] Create a free account — no credit card required.
+- [ ] Install the app on your phone and computer.
+- [ ] Connect to the "Fastest" server or a specific country.
+- [ ] Tip: Add the VPN to your easy access menu so you can switch it on and off quickly — some sites (e.g. banking apps) can block VPN connections.
+- [ ] [IP Leak](https://ipleak.net) — after setting up your VPN, test to see if it's leaking your location.

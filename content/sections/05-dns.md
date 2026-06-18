@@ -27,11 +27,11 @@ further_reading:
 
 We recommend **NextDNS** — a privacy-focused, configurable DNS provider that blocks ads, trackers, and malware at the network level.
 
-- Visit [NextDNS.io](https://nextdns.io) and create a free account.
-- Set up a profile for each specific device (Mobile, Laptop, Router).
-- On your mobile and laptop download the NextDNS app (Android/iOS/Windows/Mac) and log in.
-- Follow the simple Setup Guide for the specific device and operating system.
-- Set it up on your router for whole-home coverage — log in to your router and enter your NextDNS ID into the DNS settings (usually under WAN/Internet settings).
-- On your preferred browser go to Settings > Network (or similar), enable "Use Secure DNS", select "Custom" and enter your NextDNS URL.
-- Tip: Start with conservative blocklists. If a website breaks, add its domain to the Allowlist in your NextDNS dashboard (e.g. example.com, not the full URL).
-- [IP Leak](https://ipleak.net) — after setting up your private DNS, test to see if it's leaking.
+- [ ] Visit [NextDNS.io](https://nextdns.io) and create a free account.
+- [ ] Set up a profile for each specific device (Mobile, Laptop, Router).
+- [ ] On your mobile and laptop download the NextDNS app (Android/iOS/Windows/Mac) and log in.
+- [ ] Follow the simple Setup Guide for the specific device and operating system.
+- [ ] Set it up on your router for whole-home coverage — log in to your router and enter your NextDNS ID into the DNS settings (usually under WAN/Internet settings).
+- [ ] On your preferred browser go to Settings > Network (or similar), enable "Use Secure DNS", select "Custom" and enter your NextDNS URL.
+- [ ] Tip: Start with conservative blocklists. If a website breaks, add its domain to the Allowlist in your NextDNS dashboard (e.g. example.com, not the full URL).
+- [ ] [IP Leak](https://ipleak.net) — after setting up your private DNS, test to see if it's leaking.

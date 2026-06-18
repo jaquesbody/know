@@ -9,7 +9,7 @@ Meta can track you across the web and collect a tonne of metadata — who you ta
 
 **How to limit Meta's reach**
 
-- Limit data collection on your phone by revoking permissions for Contacts, Location and Microphone in app settings.
-- In Settings on Facebook and WhatsApp, check for privacy and security settings that are switched on by default and turn them off.
-- Move to a privacy respecting messaging app like Signal — it doesn't collect metadata or have access to your chats.
-- Keep an eye out for Meta AI, especially default enabled smart features in settings.
+- [ ] Limit data collection on your phone by revoking permissions for Contacts, Location and Microphone in app settings.
+- [ ] In Settings on Facebook and WhatsApp, check for privacy and security settings that are switched on by default and turn them off.
+- [ ] Move to a privacy respecting messaging app like Signal — it doesn't collect metadata or have access to your chats.
+- [ ] Keep an eye out for Meta AI, especially default enabled smart features in settings.

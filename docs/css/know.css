@@ -544,3 +544,10 @@
     padding: var(--space-4);
   }
 }
+
+/* task list checkboxes — remove bullet point */
+.section-item__content ul li:has(> input[type="checkbox"]),
+.section-item__content ul li:has(> p > input[type="checkbox"]) {
+    list-style: none;
+    margin-left: -1.5em;
+}
