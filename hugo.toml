@@ -6,5 +6,5 @@ disableKinds = ["taxonomy", "term"]
 
 [markup]
   [markup.goldmark]
-    [markup.renderer]
+    [markup.goldmark.renderer]
       unsafe = true
