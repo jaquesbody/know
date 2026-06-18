@@ -2,6 +2,9 @@ baseURL = "https://jaquesbody.github.io/know/"
 languageCode = "en-gb"
 title = "Know"
 
-disableKinds = ["taxonomy", "term"] [outputs]
-  home = ["HTML"] [markup] [markup.goldmark] [markup.renderer]
+disableKinds = ["taxonomy", "term"]
+
+[markup]
+  [markup.goldmark]
+    [markup.renderer]
       unsafe = true

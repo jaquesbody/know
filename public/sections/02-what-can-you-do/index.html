@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-<head>
+<head><script src="/know/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=know/livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#ff5c00">
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}A practical guide to reclaiming your digital privacy.{{ end }}">
-  <title>{{ if .IsHome }}Know — reclaim your digital privacy{{ else }}{{ .Title }} | Know{{ end }}</title>
+  <meta name="description" content="A practical guide to reclaiming your digital privacy.">
+  <title>What can you do? | Know</title>
   <link rel="manifest" href="/know/manifest.json">
   <link rel="apple-touch-icon" href="/know/icons/apple-touch-icon.png">
   <link rel="stylesheet" href="/know/css/main.css">
@@ -24,23 +24,32 @@
     </div>
   </header>
   <main>
-    {{ block "main" . }}{{ end }}
+    
+<p>By reducing the amount of data you leak unknowingly or give away freely without thinking, you can limit the effects of data collection.</p>
+<p>If this is new to you, start with <strong>Understanding Your Digital Profile</strong> then go straight to <strong>10 Quick Digital Privacy Wins</strong> and begin reclaiming your digital privacy.</p>
+<p>Below that are more detailed steps to greater privacy.</p>
+<p><strong>Tick off items as you go</strong>
+Click &lsquo;Done&rsquo; when you&rsquo;ve finished a section
+<strong>Don&rsquo;t rush, take your time</strong>
+Make some small changes first</p>
+
+
   </main>
   <footer class="site-footer">
     <div class="container">
       <div class="footer-inner">
         <div class="footer-icons">
           <a href="https://github.com/jaquesbody" aria-label="GitHub" rel="noopener noreferrer">
-            {{ $icon := resources.Get "icons/github.svg" }}
-            {{ if $icon }}{{ $icon.Content | safeHTML }}{{ end }}
+            
+            
           </a>
           <a href="https://x.com/@jaquesbody" aria-label="X" rel="noopener noreferrer">
-            {{ $icon := resources.Get "icons/x.svg" }}
-            {{ if $icon }}{{ $icon.Content | safeHTML }}{{ end }}
+            
+            
           </a>
           <a href="https://yakihonne.com/profile/nprofile1qqsf2dn25lxa5fva9vvr28ppxzdalpmms7069mzc7922guy49c5je6q08qmyd" aria-label="Nostr" rel="noopener noreferrer">
-            {{ $icon := resources.Get "icons/nostr.svg" }}
-            {{ if $icon }}{{ $icon.Content | safeHTML }}{{ end }}
+            
+            
           </a>
         </div>
       </div>

@@ -1,0 +1,27 @@
+{
+  "name": "Know — reclaim your digital privacy",
+  "short_name": "Know",
+  "description": "A practical guide to reclaiming your digital privacy.",
+  "start_url": "/know/",
+  "scope": "/know/",
+  "display": "standalone",
+  "background_color": "#0d0d0f",
+  "theme_color": "#ff5c00",
+  "icons": [
+    {
+      "src": "/know/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/know/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/know/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
