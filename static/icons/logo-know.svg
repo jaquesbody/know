@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="36.962994"
+   height="30.772741"
+   viewBox="0 0 9.7797918 8.1419542"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7-3-2">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.345567;stroke-dasharray:none;stroke-opacity:1"
+         id="rect8-1-6"
+         width="75.91127"
+         height="9.1093531"
+         x="81.039734"
+         y="460.00797" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15-0">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.345567;stroke-dasharray:none;stroke-opacity:1"
+         id="rect16-38"
+         width="7.848002"
+         height="3.7759259"
+         x="81.148697"
+         y="456.34268" />
+    </clipPath>
+    <rect
+       x="46.829769"
+       y="267.90985"
+       width="192.7644"
+       height="72.241272"
+       id="rect2" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.281473;stroke-dasharray:none;stroke-opacity:1"
+         id="rect7"
+         width="28.710732"
+         height="4.6022148"
+         x="46.316372"
+         y="276.23569" />
+    </clipPath>
+    <rect
+       x="46.829769"
+       y="267.90985"
+       width="192.7644"
+       height="72.241272"
+       id="rect2-5" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.281473;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4"
+         width="28.002701"
+         height="7.1865339"
+         x="45.904354"
+         y="269.06046" />
+    </clipPath>
+    <rect
+       x="46.829769"
+       y="267.90985"
+       width="192.7644"
+       height="72.241272"
+       id="rect2-4" />
+  </defs>
+  <path
+     d="m 47.682078,279.38696 v -9.048 l 1.656,-0.276 v 5.508 q 0.324,-0.372 0.648,-0.804 0.336,-0.444 0.636,-0.888 0.312,-0.444 0.528,-0.804 h 1.98 q -0.312,0.408 -0.756,0.912 -0.432,0.492 -0.876,0.984 -0.444,0.48 -0.816,0.876 0.336,0.324 0.72,0.78 0.396,0.444 0.78,0.936 0.384,0.492 0.696,0.972 0.312,0.468 0.492,0.852 h -1.884 q -0.168,-0.348 -0.432,-0.756 -0.252,-0.42 -0.552,-0.84 -0.3,-0.42 -0.6,-0.78 -0.3,-0.372 -0.564,-0.612 v 2.988 z"
+     id="text2"
+     clip-path="url(#clipPath6)"
+     style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:-0.330992px;white-space:pre;fill:#ff5c00;stroke:#ff5c00;stroke-width:0.281473"
+     transform="matrix(0.85401081,0,0,0.85401081,-40.600811,-230.57772)"
+     aria-label="k" />
+  <path
+     d="m 47.682078,279.38696 v -9.048 l 1.656,-0.276 v 5.508 q 0.324,-0.372 0.648,-0.804 0.336,-0.444 0.636,-0.888 0.312,-0.444 0.528,-0.804 h 1.98 q -0.312,0.408 -0.756,0.912 -0.432,0.492 -0.876,0.984 -0.444,0.48 -0.816,0.876 0.336,0.324 0.72,0.78 0.396,0.444 0.78,0.936 0.384,0.492 0.696,0.972 0.312,0.468 0.492,0.852 h -1.884 q -0.168,-0.348 -0.432,-0.756 -0.252,-0.42 -0.552,-0.84 -0.3,-0.42 -0.6,-0.78 -0.3,-0.372 -0.564,-0.612 v 2.988 z"
+     id="text2-1"
+     clip-path="url(#clipPath3)"
+     style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:-0.330992px;white-space:pre;fill:#ff5c00;stroke:#ff5c00;stroke-width:0.281473"
+     transform="matrix(0.85401081,0,0,0.85401081,-39.833019,-230.51649)"
+     aria-label="k" />
+  <path
+     d="m 50.202078,279.53096 q -0.48,0 -0.852,-0.312 -0.36,-0.312 -0.36,-0.888 0,-0.564 0.36,-0.876 0.372,-0.312 0.852,-0.312 0.468,0 0.828,0.312 0.372,0.312 0.372,0.876 0,0.576 -0.372,0.888 -0.36,0.312 -0.828,0.312 z m 0,-4.068 q -0.48,0 -0.852,-0.312 -0.36,-0.312 -0.36,-0.888 0,-0.564 0.36,-0.876 0.372,-0.312 0.852,-0.312 0.468,0 0.828,0.312 0.372,0.312 0.372,0.876 0,0.576 -0.372,0.888 -0.36,0.312 -0.828,0.312 z"
+     id="text2-2"
+     style="font-weight:bold;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';letter-spacing:-0.339257px;white-space:pre;fill:#ff5c00;stroke:#ff5c00;stroke-width:0.275736"
+     transform="matrix(0.95604605,0,0,0.95604605,-39.494776,-259.23432)"
+     aria-label=":" />
+</svg>

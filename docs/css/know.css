@@ -22,10 +22,31 @@
    First-visit privacy notice
 ----------------------------------------------------------------------------- */
 
-.notice {
-  background-color: var(--accent-muted);
-  border-bottom: 1px solid var(--accent);
-  padding-block: var(--space-2);
+.notice-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-2);
+}
+
+.notice-overlay[hidden] {
+  display: none;
+}
+
+.notice-box {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  max-width: 28rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
 }
 
 .notice[hidden] {
@@ -53,13 +74,28 @@
   flex-shrink: 0;
 }
 
+.notice-source a {
+  color: var(--accent);
+}
+
+.notice-source a:hover {
+  color: var(--accent-hover);
+}
+
+.notice-logo {
+  height: 32px;
+  width: auto;
+  display: block;
+  margin-bottom: var(--space-2);
+}
+
 
 /* -----------------------------------------------------------------------------
    Hero
 ----------------------------------------------------------------------------- */
 
-.know-hero {
-  padding-block: var(--space-6) var(--space-4);
+.know-guide {
+  padding-block-start: calc(var(--space-4) + 96px);
 }
 
 .know-hero__title {
@@ -82,11 +118,12 @@
 ----------------------------------------------------------------------------- */
 
 .progress-bar-wrap {
-  padding-block: var(--space-2);
-  border-bottom: 1px solid var(--border);
-  position: sticky;
-  top: 0;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  right: 0;
   background-color: var(--bg);
+  padding-block: var(--space-2);
   z-index: 9;
 }
 

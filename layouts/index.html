@@ -14,22 +14,15 @@
 {{/* ----------------------------------------------------------------
      First-visit privacy notice
 ---------------------------------------------------------------- */}}
-<div class="notice" id="privacy-notice" aria-live="polite">
-  <div class="notice__inner">
-    <p>This guide tracks your progress locally. Nothing leaves your device — no accounts, no servers, no tracking.</p>
+<div class="notice-overlay" id="privacy-notice" aria-modal="true" role="dialog">
+  <div class="notice-box">
+    <img src="/know/icons/wordmark-know.svg" alt="Know" class="notice-logo">  
+    <p class="notice-tagline">A practical guide to reclaiming your digital privacy.</p>
+    <p class="notice-privacy">This guide tracks your progress locally. Nothing leaves your device. No account. No servers. No app permissions.</p>
+    <p class="notice-source">Fully open source. <a href="https://github.com/jaquesbody/know" rel="noopener noreferrer">Review the code on GitHub</a></p>
     <button class="btn-accent notice__dismiss" id="notice-dismiss">Got it</button>
   </div>
 </div>
-
-{{/* ----------------------------------------------------------------
-     Page header
----------------------------------------------------------------- */}}
-<section class="know-hero">
-  <div class="container">
-    <h1 class="know-hero__title">{{ .Title }}</h1>
-    <p class="know-hero__desc">{{ .Description }}</p>
-  </div>
-</section>
 
 {{/* ----------------------------------------------------------------
      Progress bar
@@ -48,13 +41,12 @@
 
 {{/* ----------------------------------------------------------------
      Sections — grouped
-     Groups rendered in order with group descriptions as constants
 ---------------------------------------------------------------- */}}
 <div class="know-guide">
   <div class="container">
 
     {{/* --- Group: Getting Started --- */}}
-    {{ $gettingStarted := where (where .Site.RegularPages ".Section" "sections") ".Params.group" "getting-started" }}
+    {{ $gettingStarted := where (where .Site.RegularPages "Section" "sections") ".Params.group" "getting-started" }}
     {{ $gettingStarted = sort $gettingStarted ".Params.order" "asc" }}
     {{ if $gettingStarted }}
     <div class="group" id="group-getting-started">
@@ -70,7 +62,7 @@
     {{ end }}
 
     {{/* --- Group: Core Privacy --- */}}
-    {{ $corePrivacy := where (where .Site.RegularPages ".Section" "sections") ".Params.group" "core-privacy" }}
+    {{ $corePrivacy := where (where .Site.RegularPages "Section" "sections") ".Params.group" "core-privacy" }}
     {{ $corePrivacy = sort $corePrivacy ".Params.order" "asc" }}
     {{ if $corePrivacy }}
     <div class="group" id="group-core-privacy">
@@ -87,7 +79,7 @@
     {{ end }}
 
     {{/* --- Group: Big Tech --- */}}
-    {{ $bigTech := where (where .Site.RegularPages ".Section" "sections") ".Params.group" "big-tech" }}
+    {{ $bigTech := where (where .Site.RegularPages "Section" "sections") ".Params.group" "big-tech" }}
     {{ $bigTech = sort $bigTech ".Params.order" "asc" }}
     {{ if $bigTech }}
     <div class="group" id="group-big-tech">
@@ -104,7 +96,7 @@
     {{ end }}
 
     {{/* --- Group: Staying Private --- */}}
-    {{ $stayingPrivate := where (where .Site.RegularPages ".Section" "sections") ".Params.group" "staying-private" }}
+    {{ $stayingPrivate := where (where .Site.RegularPages "Section" "sections") ".Params.group" "staying-private" }}
     {{ $stayingPrivate = sort $stayingPrivate ".Params.order" "asc" }}
     {{ if $stayingPrivate }}
     <div class="group" id="group-staying-private">

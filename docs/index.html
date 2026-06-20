@@ -20,7 +20,9 @@
 <body>
   <header class="site-header">
     <div class="container flex items-center justify-between">
-      <a href="/know/" class="site-logo">Know</a>
+      <a href="/know/" class="site-logo" aria-label="Know home">
+        <img src="/know/icons/wordmark-know.svg" alt="Know" class="logo-wordmark">
+      </a>  
       <span class="site-tagline">reclaim your digital privacy</span>
     </div>
   </header>
@@ -37,20 +39,15 @@
 </style>
 
 
-<div class="notice" id="privacy-notice" aria-live="polite">
-  <div class="notice__inner">
-    <p>This guide tracks your progress locally. Nothing leaves your device — no accounts, no servers, no tracking.</p>
+<div class="notice-overlay" id="privacy-notice" aria-modal="true" role="dialog">
+  <div class="notice-box">
+    <img src="/know/icons/wordmark-know.svg" alt="Know" class="notice-logo">  
+    <p class="notice-tagline">A practical guide to reclaiming your digital privacy.</p>
+    <p class="notice-privacy">This guide tracks your progress locally. Nothing leaves your device. No account. No servers. No app permissions.</p>
+    <p class="notice-source">Fully open source. <a href="https://github.com/jaquesbody/know" rel="noopener noreferrer">Review the code on GitHub</a></p>
     <button class="btn-accent notice__dismiss" id="notice-dismiss">Got it</button>
   </div>
 </div>
-
-
-<section class="know-hero">
-  <div class="container">
-    <h1 class="know-hero__title">Know</h1>
-    <p class="know-hero__desc">A practical guide to reclaiming your digital privacy.</p>
-  </div>
-</section>
 
 
 <div class="progress-bar-wrap" aria-label="Overall progress">
