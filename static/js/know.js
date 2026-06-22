@@ -239,8 +239,11 @@ function setSectionDone(id, btn) {
 
   const status = document.getElementById('section-status-' + id);
   if (status) {
-    status.textContent = '✓';
+    status.textContent = '';
   }
+
+  const item = document.querySelector('[data-section-id="' + id + '"]');
+  if (item) item.classList.add('section-item--complete');
 
   const trigger = document.querySelector('[aria-controls="section-body-' + id + '"]');
   const body    = document.getElementById('section-body-' + id);
@@ -263,6 +266,9 @@ function undoSection(id, btn) {
   if (status) {
     status.textContent = '';
   }
+
+  const item = document.querySelector('[data-section-id="' + id + '"]');
+  if (item) item.classList.remove('section-item--complete');
 }
 
 
@@ -334,4 +340,4 @@ document.addEventListener('DOMContentLoaded', function () {
   initCheckboxes();
   initDoneButtons();
   updateProgress();
-});
+});   

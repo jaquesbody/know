@@ -419,14 +419,33 @@
   justify-content: flex-end;
 }
 
+/* completed state — trigger row */
+.section-item--complete .section-item__trigger {
+  background-color: var(--accent);
+}
+
+.section-item--complete .section-item__trigger:hover {
+  background-color: var(--accent-hover);
+}
+
+.section-item--complete .section-item__title {
+  color: #ffffff;
+}
+
+.section-item--complete .section-item__chevron {
+  color: #ffffff;
+}
+
+/* done button — complete state */
 .section-item__done--complete {
-  background-color: var(--bg-surface);
-  color: var(--text-secondary);
-  cursor: default;
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+  cursor: pointer;
 }
 
 .section-item__done--complete:hover {
-  background-color: var(--bg-surface);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 
