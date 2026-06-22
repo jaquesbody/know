@@ -1,6 +1,7 @@
 ---
 title: "Next Level Privacy"
 description: "Further steps for greater privacy and sovereignty."
+layout: "next-level"
 ---
 
 If you've made it this far you have taken some major steps to improving your online digital privacy. Here are some further measures to gain greater privacy and sovereignty.

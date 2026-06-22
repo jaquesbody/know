@@ -1,6 +1,7 @@
 ---
 title: "You're done"
 description: "You've completed the Know privacy guide."
+layout: "complete"
 ---
 
 You've worked through every section. That's not nothing — most people never get this far.
