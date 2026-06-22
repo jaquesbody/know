@@ -1,4 +1,4 @@
-const CACHE_NAME = 'know-v2';
+  const CACHE_NAME = 'know-v4';
 const ASSETS = [
   '/know/',
   '/know/css/main.css',
