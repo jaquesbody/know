@@ -248,10 +248,18 @@ function setSectionDone(id, btn) {
   const trigger = document.querySelector('[aria-controls="section-body-' + id + '"]');
   const body    = document.getElementById('section-body-' + id);
 
-  if (trigger && body) {
-    trigger.setAttribute('aria-expanded', 'false');
-    body.hidden = true;
-  }
+if (trigger && body) {
+  trigger.setAttribute('aria-expanded', 'false');
+  body.hidden = true;
+}
+
+setTimeout(function () {
+  const item = document.querySelector('[data-section-id="' + id + '"]');
+  if (item) {
+    const offset = item.getBoundingClientRect().top + window.scrollY - 120;
+    window.scrollTo({ top: offset, behavior: 'smooth' });
+    }
+  }, 50);
 }
 
 function undoSection(id, btn) {
@@ -277,9 +285,15 @@ function undoSection(id, btn) {
 ----------------------------------------------------------------------------- */
 
 function showCompletionPrompt() {
-  const prompt = document.getElementById('completion-prompt');
-  if (!prompt) return;
-  prompt.hidden = false;
+  if (storageGet(COMPLETE_KEY) === 'true') {
+    const prompt = document.getElementById('completion-prompt');
+    if (prompt) prompt.hidden = false;
+    return;
+  }
+  storageSet(COMPLETE_KEY, 'true');
+  setTimeout(function () {
+    window.location.href = '/know/complete/';
+  }, 50);
 }
 
 
@@ -340,4 +354,8 @@ document.addEventListener('DOMContentLoaded', function () {
   initCheckboxes();
   initDoneButtons();
   updateProgress();
+  if (storageGet(COMPLETE_KEY) === 'true') {
+    const prompt = document.getElementById('completion-prompt');
+    if (prompt) prompt.hidden = false;
+  }
 });   
