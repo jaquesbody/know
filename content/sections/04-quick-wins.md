@@ -21,7 +21,7 @@ further_reading: []
   Visit [proton.me/mail](https://proton.me/mail). They don't read your emails, docs or use your conversations to train their AI models. Stop using your name and DOB in the address.
 
 - [ ] **Move to an encrypted cloud storage provider** *(10 mins)*
-  Check out alternatives in the [Cloud Storage](#cloud) section. They won't use your photos or snoop on your documents.
+  Check out alternatives in the <a href="/know/" data-open="12">Cloud Storage</a> section. They won't use your photos or snoop on your documents.
 
 - [ ] **Check Have I Been Pwned** *(30 secs)*
   Visit [haveibeenpwned.com](https://haveibeenpwned.com). See if your email has been leaked in a data breach. If so, change it and the password immediately.
