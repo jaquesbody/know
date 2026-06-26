@@ -1,5 +1,5 @@
 ---
-title: "Understanding Your Digital Profile"
+title: "Your Digital Profile"
 group: "getting-started"
 order: 3
 type: "getting-started"
