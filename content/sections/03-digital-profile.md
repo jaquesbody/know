@@ -14,7 +14,7 @@ further_reading:
     url: "https://ipleak.net"
 ---
 
-### What is currently happening?
+**What is currently happening?**
 
 You open an account to order some ink cartridges, book a train ticket, or reserve a table at a restaurant. You use a Gmail account to receive the confirmation and pop a reminder in your calendar app.
 
@@ -22,7 +22,7 @@ In a matter of minutes you've just handed over your name, home address, email, p
 
 Within a year, this data could easily be on 50+ databases, where they can start to compile a Digital Profile that can then be sold on to advertisers, insurers, and governments. And if any single company or organisation in this chain suffers a breach, your personal details are exposed. Now think of how many times you've done that — hundreds. That's a lot of data and personal information.
 
-### What can your Digital Profile include?
+**What can your Digital Profile include?**
 
 - Personal details (Name, DOB, Nationality, Address)
 - Location history (Favourite routes, current location)
@@ -110,21 +110,15 @@ And if that wasn't enough, take a look at Meta's data collection policy for the 
 
 </details>
 
-### Why does this matter?
+**Why does this matter?**
 
 You might argue you have nothing to hide or you're not important. Well, hackers or scammers don't care for starters. But what if a political party gets in power in the future that isn't keen on your comments, posts or activities? Or even worse, you already live in or visit a country that punishes or harms you for your online activity?
 
-Yes, it's your data. You're very welcome to hand it out as you feel, but would you broadcast your search history and browsing, medical conditions, intimate messages or fringe views to strangers in the street? Would you let people see what you watch on telly or see what you're up to behind closed doors? Would you tell them where you go every day, at what time and for how long?
+Yes, it's your data. You're very welcome to hand it out as you feel, but would you broadcast your search history and browsing, medical conditions, intimate messages or fringe views to strangers in the street? Would you let people see what you watch on telly or see what you're up to behind closed doors? Would you tell them where you go every day, at what time and for how long? It's your data, your privacy and your right.
 
-**It's your data, your privacy and your right.**
+**Here's a few resources to check out**
 
-### Here's a few resources to check out
-
-- [Just Delete Me](https://justdeleteme.xyz) — simply search for a company and follow the instructions
-- [Cover Your Tracks](https://coveryourtracks.eff.org) — find out how well your browser protects you from tracking
-- [IP Leak](https://ipleak.net) — is your IP address and location being leaked?
-
-We also highly recommend checking out these privacy advocates for a deeper dive on all things digital privacy and security.
+We highly recommend checking out these privacy advocates for a deeper dive on all things digital privacy and security.
 
 - [Naomi Brockwell](https://www.youtube.com/@NaomiBrockwellTV) — simple, clear YouTube videos
 - [Sooraj Sathyanarayanan](https://profincognito.me/tools/) — a comprehensive list of privacy tools
