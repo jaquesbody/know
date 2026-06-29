@@ -166,6 +166,11 @@ function initAccordions() {
       } else {
         trigger.setAttribute('aria-expanded', 'true');
         body.hidden = false;
+
+        setTimeout(function () {
+          const offset = trigger.getBoundingClientRect().top + window.scrollY - 120;
+          window.scrollTo({ behavior: 'smooth', top: offset });
+        }, 50);
       }
     });
   });
@@ -248,10 +253,18 @@ function setSectionDone(id, btn) {
   const trigger = document.querySelector('[aria-controls="section-body-' + id + '"]');
   const body    = document.getElementById('section-body-' + id);
 
-  if (trigger && body) {
-    trigger.setAttribute('aria-expanded', 'false');
-    body.hidden = true;
-  }
+if (trigger && body) {
+  trigger.setAttribute('aria-expanded', 'false');
+  body.hidden = true;
+}
+
+setTimeout(function () {
+  const item = document.querySelector('[data-section-id="' + id + '"]');
+  if (item) {
+    const offset = item.getBoundingClientRect().top + window.scrollY - 120;
+    window.scrollTo({ top: offset, behavior: 'smooth' });
+    }
+  }, 50);
 }
 
 function undoSection(id, btn) {
@@ -340,11 +353,29 @@ function triggerInstallPrompt() {
    Init
 ----------------------------------------------------------------------------- */
 
+function initDeepLinks() {
+  document.querySelectorAll('a[data-open]').forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      const id = link.getAttribute('data-open');
+      openSection(id);
+      setTimeout(function () {
+        const item = document.querySelector('[data-section-id="' + id + '"]');
+        if (item) {
+          const offset = item.getBoundingClientRect().top + window.scrollY - 120;
+          window.scrollTo({ behavior: 'smooth', top: offset });
+        }
+      }, 50);
+    });
+  });
+}
+
 document.addEventListener('DOMContentLoaded', function () {
   initNotice();
   initAccordions();
   initCheckboxes();
   initDoneButtons();
+  initDeepLinks();
   updateProgress();
   if (storageGet(COMPLETE_KEY) === 'true') {
     const prompt = document.getElementById('completion-prompt');
