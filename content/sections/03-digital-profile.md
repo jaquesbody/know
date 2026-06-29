@@ -24,6 +24,8 @@ Within a year, this data could easily be on 50+ databases, where they can start 
 
 **What can your Digital Profile include?**
 
+Each section in Core Privacy targets one or more of these layers directly.
+
 - Personal details (Name, DOB, Nationality, Address)
 - Location history (Favourite routes, current location)
 - Behavioral data (Search keywords, medical queries, hobbies)
