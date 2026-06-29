@@ -23,6 +23,6 @@ further_reading:
 
 We highly recommend **Signal** — it feels a lot like WhatsApp, it's easy to use, they can't read your messages and collect next to none of your data.
 
-- [ ] Download [Signal](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms).
+- [ ] Download [Signal](https://signal.org/download/).
 - [ ] Don't want to broadcast your phone number? Go to Settings > Privacy > Phone number.
 - [ ] Run Signal alongside WhatsApp and slowly migrate people over as and when they are ready.
