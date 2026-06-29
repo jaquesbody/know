@@ -11,11 +11,13 @@ providers:
   - name: "Tor Browser"
     url: "https://torproject.org/download/"
 benefits:
-  - "Faster browsing — less to load on every page."
+  - "Faster browsing as there's less to load on every page."
   - "No ads, no annoying pop-ups and no tracking your clicks or browsing."
   - "YouTube works without ads."
   - "Your search history and AI queries are no longer logged or sold."
-further_reading: []
+further_reading:
+  - label: "Cover Your Tracks — EFF"
+    url: "https://coveryourtracks.eff.org/"
 ---
 
 **What is it?** Your browser is the window to the internet — it's how you access websites, email services and do your shopping. Your search engine is how you interact with the browser to find online information.
