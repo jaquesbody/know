@@ -14,7 +14,7 @@ Privacy is not a one-time setup. It requires regular checks to ensure settings h
 
 - [ ] Review Permissions: Check phone and desktop app permissions (Location, Camera, Mic). Revoke unused ones.
 - [ ] Check for Breaches: Run your emails through [Have I Been Pwned](https://haveibeenpwned.com). Change passwords immediately if breached.
-- [ ] Update Settings: After OS updates, re-check privacy toggles (AI, Diagnostics, Smart Features).
+- [ ] Update Settings: After Operating System updates, re-check privacy toggles (AI, Diagnostics, Smart Features).
 - [ ] Clean Up: Delete unused apps — they collect data even when not in use.
 - [ ] Clipboard: Clear your phone and desktop clipboard regularly.
 - [ ] Recent Files: Search your phone for and delete old screenshots, downloads and edits. These often contain personal data you forgot about.
