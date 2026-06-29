@@ -14,7 +14,9 @@ benefits:
   - "No dependency on Big Tech."
   - "End-to-end encrypted documents."
   - "No account needed, no linked identity."
-further_reading: []
+further_reading:
+  - label: "ONLYOFFICE — why it's private"
+    url: "https://www.onlyoffice.com/security.aspx"
 ---
 
 **What is it?** Microsoft Word and Excel and Google Docs and Sheets. We've all used them to create and store important documents — from letters and contracts to financial records and medical data.
