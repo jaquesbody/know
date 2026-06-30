@@ -49,27 +49,6 @@
   gap: var(--space-3);
 }
 
-.notice[hidden] {
-  display: none;
-}
-
-.notice__inner {
-  max-width: 72rem;
-  margin-inline: auto;
-  padding-inline: var(--space-2);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-3);
-  flex-wrap: wrap;
-}
-
-.notice__inner p {
-  font-size: var(--text-sm);
-  color: var(--text-primary);
-  margin: 0;
-}
-
 .notice__dismiss {
   flex-shrink: 0;
 }
