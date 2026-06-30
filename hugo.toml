@@ -5,7 +5,5 @@ publishDir = "docs"
 
 disableKinds = ["taxonomy", "term"]
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup] [markup.goldmark] [markup.goldmark.renderer]
+      unsafe = true  # required: SVG elements rendered directly in markdown content
