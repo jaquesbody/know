@@ -49,27 +49,6 @@
   gap: var(--space-3);
 }
 
-.notice[hidden] {
-  display: none;
-}
-
-.notice__inner {
-  max-width: 72rem;
-  margin-inline: auto;
-  padding-inline: var(--space-2);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-3);
-  flex-wrap: wrap;
-}
-
-.notice__inner p {
-  font-size: var(--text-sm);
-  color: var(--text-primary);
-  margin: 0;
-}
-
 .notice__dismiss {
   flex-shrink: 0;
 }
@@ -93,10 +72,6 @@
 /* -----------------------------------------------------------------------------
    Hero
 ----------------------------------------------------------------------------- */
-
-.know-guide {
-  padding-block-start: calc(var(--space-4) + 96px);
-}
 
 .know-hero__title {
   font-size: var(--text-2xl);
@@ -154,7 +129,8 @@
 ----------------------------------------------------------------------------- */
 
 .know-guide {
-  padding-block: var(--space-6);
+  padding-block-start: calc(var(--space-4) + 96px);
+  padding-block-end: var(--space-6);
 }
 
 
@@ -427,23 +403,23 @@
 }
 
 .section-item--complete .section-item__title {
-  color: #ffffff;
+  color: var(--color-white-pure);
 }
 
 .section-item--complete .section-item__chevron {
-  color: #ffffff;
+  color: var(--color-white-pure);
 }
 
 /* done button — complete state */
 .section-item__done--complete {
   background-color: transparent;
-  color: #ffffff;
-  border-color: #ffffff;
+  color: var(--color-white-pure);
+  border-color: var(--color-white-pure);
   cursor: pointer;
 }
 
 .section-item__done--complete:hover {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.15); /* --color-white-pure at 15% opacity */
 }
 
 
