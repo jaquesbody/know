@@ -424,23 +424,23 @@
 }
 
 .section-item--complete .section-item__title {
-  color: #ffffff;
+  color: var(--color-white-pure);
 }
 
 .section-item--complete .section-item__chevron {
-  color: #ffffff;
+  color: var(--color-white-pure);
 }
 
 /* done button — complete state */
 .section-item__done--complete {
   background-color: transparent;
-  color: #ffffff;
-  border-color: #ffffff;
+  color: var(--color-white-pure);
+  border-color: var(--color-white-pure);
   cursor: pointer;
 }
 
 .section-item__done--complete:hover {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.15); /* --color-white-pure at 15% opacity */
 }
 
 
