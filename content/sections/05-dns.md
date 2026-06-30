@@ -8,8 +8,6 @@ providers:
     url: "https://nextdns.io"
   - name: "Quad9 DNS"
     url: "https://quad9.net"
-  - name: "Cloudflare DNS"
-    url: "https://www.cloudflare.com/en-gb/application-services/products/dns/"
 benefits:
   - "Significantly faster browsing as ad-tracking requests are blocked before they load."
   - "Your ISP can no longer see the specific websites you visit."
@@ -21,7 +19,7 @@ further_reading:
     url: "https://proton.me/business/blog/dns-security-for-business"
 ---
 
-**What is it?** DNS translates human-readable web addresses (e.g. www.google.com) into machine-readable IP addresses (e.g. 142.250.190.4). By default, your Internet Service Provider (ISP) handles this, allowing them to see every website you visit.
+**What is it?** DNS translates human-readable web addresses (e.g. www&#46;google&#46;com) into machine-readable IP addresses (e.g. 142.250.190.4). By default, your Internet Service Provider (ISP) handles this, allowing them to see every website you visit.
 
 **What about privacy?** Without a privacy-focused DNS, your ISP and default DNS providers build a complete log of your browsing history. This data can be sold to advertisers, used to throttle your connection speeds, or handed over to authorities without a warrant in some jurisdictions. The default DNS providers are usually Google's 8.8.8.8 or Cloudflare's 1.1.1.1.
 
