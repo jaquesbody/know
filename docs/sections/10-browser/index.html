@@ -12,8 +12,10 @@
   <link rel="stylesheet" href="/know/css/know.css">
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/know/sw.js');
-    }
+      navigator.serviceWorker.register('/know/sw.js').catch(function(err) {
+        console.warn('Service worker registration failed:', err);
+      });
+    } 
   </script>
 </head>
 <body>
@@ -27,17 +29,8 @@
   </header>
   <main>
     
-<p><strong>What is it?</strong> Your browser is the window to the internet — it&rsquo;s how you access websites, email services and do your shopping. Your search engine is how you interact with the browser to find online information.</p>
-<p><strong>What about privacy?</strong> Default browsers like Chrome and Edge track your browsing, sell data to advertisers and integrate AI that harvests your inputs. Default search engines record and track your search history and keystrokes — even if you don&rsquo;t click search — to train AI models and build a profile of every site you visit.</p>
-<p>We recommend <strong>Brave Browser and Search</strong> — no ads, no tracking, no search logs and super easy to use.</p>
-<ul>
-<li><input disabled="" type="checkbox"> Download from <a href="https://brave.com/download">Brave.com</a>.</li>
-<li><input disabled="" type="checkbox"> Import your bookmarks (optional, but easy).</li>
-<li><input disabled="" type="checkbox"> Go to Settings &gt; Shields and ensure &ldquo;Block Fingerprinting&rdquo; and &ldquo;Block Cookies&rdquo; are turned on.</li>
-<li><input disabled="" type="checkbox"> In Settings &gt; Search Engine, set the default to Brave Search.</li>
-<li><input disabled="" type="checkbox"> <a href="https://coveryourtracks.eff.org">Cover Your Tracks</a> — find out how well your browser now protects you from tracking.</li>
-</ul>
-
+<meta http-equiv="refresh" content="0; url=/know/#section-10">
+<script>window.location.replace('/know/#section-10')</script>
 
   </main>
   <footer class="site-footer">

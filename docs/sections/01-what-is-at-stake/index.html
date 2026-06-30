@@ -12,8 +12,10 @@
   <link rel="stylesheet" href="/know/css/know.css">
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/know/sw.js');
-    }
+      navigator.serviceWorker.register('/know/sw.js').catch(function(err) {
+        console.warn('Service worker registration failed:', err);
+      });
+    } 
   </script>
 </head>
 <body>
@@ -27,20 +29,8 @@
   </header>
   <main>
     
-<p>Your digital profile isn&rsquo;t just your search history. It includes your
-passwords, emails, contacts, location history, the metadata of your
-daily life (dates, times, durations and a whole lot more). This data
-gets sold to brokers, collected by governments, exposed in breaches and
-used to manipulate what you buy, believe and vote for.</p>
-<p>Privacy and security are not the same thing. Security is about keeping
-people out, by using strong passwords, two-factor authentication, encryption.
-Privacy is about reducing what&rsquo;s collected about you in the first place.
-You need both, but don&rsquo;t confuse them.</p>
-<p>You don&rsquo;t need to become anonymous. You need to reduce your exposure.
-That means fewer companies collecting your data, less of your behaviour
-being tracked, and more control over what you share and with whom. That&rsquo;s
-achievable. This guide shows you how.</p>
-
+<meta http-equiv="refresh" content="0; url=/know/#section-1">
+<script>window.location.replace('/know/#section-1')</script>
 
   </main>
   <footer class="site-footer">

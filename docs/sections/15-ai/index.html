@@ -12,8 +12,10 @@
   <link rel="stylesheet" href="/know/css/know.css">
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/know/sw.js');
-    }
+      navigator.serviceWorker.register('/know/sw.js').catch(function(err) {
+        console.warn('Service worker registration failed:', err);
+      });
+    } 
   </script>
 </head>
 <body>
@@ -27,18 +29,8 @@
   </header>
   <main>
     
-<p><strong>What is it?</strong> Modern AI features (Copilot, Gemini, OpenAI, Claude) are everywhere now, from chat bots and image creation to coding and AI agents. Many of these smart features are on by default, hidden deep in settings, with new capabilities enabled on every software update without your explicit consent.</p>
-<p><strong>What about privacy?</strong> Every prompt you send to a cloud AI is stored, analysed and potentially
-used to train future models. Your data is scraped from your personal emails, photos, private messages, documents and chat logs.Your questions reveal your health concerns, financial situation, relationships and beliefs. Most people wouldn&rsquo;t hand
-that to a stranger, so why hand it over to a corporation?</p>
-<p><strong>How to limit AI&rsquo;s reach</strong></p>
-<ul>
-<li><input disabled="" type="checkbox"> Check Settings: Go to every app and device settings. Look for options similar to &ldquo;Help Improve&rdquo;, &ldquo;Personalise&rdquo;, &ldquo;AI Features&rdquo; or &ldquo;Smart Features&rdquo; — turn them off.</li>
-<li><input disabled="" type="checkbox"> Disable Cloud Processing: Turn off any &ldquo;Send to Cloud&rdquo; options for voice assistants and keyboards.</li>
-<li><input disabled="" type="checkbox"> Local AI: Install a local model on your device (e.g. Llama3.2:1B) — none of your data is leaked.</li>
-<li><input disabled="" type="checkbox"> Private AI: Use Brave&rsquo;s AI Leo, built into the Brave browser, which is designed to not store your chat history for training.</li>
-</ul>
-
+<meta http-equiv="refresh" content="0; url=/know/#section-15">
+<script>window.location.replace('/know/#section-15')</script>
 
   </main>
   <footer class="site-footer">

@@ -12,8 +12,10 @@
   <link rel="stylesheet" href="/know/css/know.css">
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/know/sw.js');
-    }
+      navigator.serviceWorker.register('/know/sw.js').catch(function(err) {
+        console.warn('Service worker registration failed:', err);
+      });
+    } 
   </script>
 </head>
 <body>
@@ -27,22 +29,8 @@
   </header>
   <main>
     
-<p>Not all privacy advice applies to everyone. What matters is reducing
-your exposure in the areas that are relevant to your life. You don&rsquo;t
-need to do everything in this guide. Start where it makes sense and
-build from there.</p>
-<p>Most data collection happens passively. You don&rsquo;t hand it over
-deliberately, it leaks through the tools you use every day. Switch
-your browser, change to a private DNS, use a different email provider.
-Small changes compound quickly.</p>
-<p>How to use this guide:</p>
-<ul>
-<li>Work through the sections in order or jump to what&rsquo;s relevant</li>
-<li>Tick off items as you go</li>
-<li>Click Done when you&rsquo;ve finished a section</li>
-<li>Don&rsquo;t rush, small changes that stick are better than doing everything at once</li>
-</ul>
-
+<meta http-equiv="refresh" content="0; url=/know/#section-2">
+<script>window.location.replace('/know/#section-2')</script>
 
   </main>
   <footer class="site-footer">

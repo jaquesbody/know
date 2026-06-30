@@ -12,8 +12,10 @@
   <link rel="stylesheet" href="/know/css/know.css">
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/know/sw.js');
-    }
+      navigator.serviceWorker.register('/know/sw.js').catch(function(err) {
+        console.warn('Service worker registration failed:', err);
+      });
+    } 
   </script>
 </head>
 <body>
@@ -27,15 +29,8 @@
   </header>
   <main>
     
-<p>Meta can track you across the web and collect a tonne of metadata — who you talk to, when, where and for how long — from WhatsApp, Facebook and Messenger, even if the content is encrypted. This metadata is used for advertising and profiling. They build &ldquo;shadow profiles&rdquo; of everyone you interact with, even if they don&rsquo;t have an account, and use this data to micro-target ads and influence your online behaviour.</p>
-<p><strong>How to limit Meta&rsquo;s reach</strong></p>
-<ul>
-<li><input disabled="" type="checkbox"> Limit data collection on your phone by revoking permissions for Contacts, Location and Microphone in app settings.</li>
-<li><input disabled="" type="checkbox"> In Settings on Facebook and WhatsApp, check for privacy and security settings that are switched on by default and turn them off.</li>
-<li><input disabled="" type="checkbox"> Move to a privacy respecting messaging app like Signal — it doesn&rsquo;t collect metadata or have access to your chats.</li>
-<li><input disabled="" type="checkbox"> Keep an eye out for Meta AI, especially default enabled smart features in settings.</li>
-</ul>
-
+<meta http-equiv="refresh" content="0; url=/know/#section-19">
+<script>window.location.replace('/know/#section-19')</script>
 
   </main>
   <footer class="site-footer">

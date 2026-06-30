@@ -12,8 +12,10 @@
   <link rel="stylesheet" href="/know/css/know.css">
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/know/sw.js');
-    }
+      navigator.serviceWorker.register('/know/sw.js').catch(function(err) {
+        console.warn('Service worker registration failed:', err);
+      });
+    } 
   </script>
 </head>
 <body>
@@ -27,14 +29,8 @@
   </header>
   <main>
     
-<p><strong>What is it?</strong> Calendars such as Google, Outlook or your default provider are accessed via your account and synced across devices. By default, the provider has full access.</p>
-<p><strong>What about privacy?</strong> Your calendar is usually not encrypted, so your provider can see your schedule, private meetings, birthdays, medical appointments and when and where you go on holiday. All of this can be used to build an accurate profile of your personal life.</p>
-<p>We really like <strong>Proton Calendar</strong> — it&rsquo;s slick, easy to use, they can&rsquo;t see your entries and you can easily sync between devices.</p>
-<ul>
-<li><input disabled="" type="checkbox"> Download <a href="https://proton.me/calendar/download">Proton Calendar</a>.</li>
-<li><input disabled="" type="checkbox"> If you want to import your current calendar from Google, go to Settings &gt; Import from Google.</li>
-</ul>
-
+<meta http-equiv="refresh" content="0; url=/know/#section-11">
+<script>window.location.replace('/know/#section-11')</script>
 
   </main>
   <footer class="site-footer">

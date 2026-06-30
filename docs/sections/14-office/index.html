@@ -12,8 +12,10 @@
   <link rel="stylesheet" href="/know/css/know.css">
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/know/sw.js');
-    }
+      navigator.serviceWorker.register('/know/sw.js').catch(function(err) {
+        console.warn('Service worker registration failed:', err);
+      });
+    } 
   </script>
 </head>
 <body>
@@ -27,15 +29,8 @@
   </header>
   <main>
     
-<p><strong>What is it?</strong> Microsoft Word and Excel and Google Docs and Sheets. We&rsquo;ve all used them to create and store important documents — from letters and contracts to financial records and medical data.</p>
-<p><strong>What about privacy?</strong> These are private documents, or so you thought. Both Microsoft and Google can access their content, especially if you have Editor or AI features enabled. This information can then be used to train their AI models.</p>
-<p>We recommend <strong>ONLYOFFICE</strong> for compatibility and familiarity.</p>
-<ul>
-<li><input disabled="" type="checkbox"> Download <a href="https://www.onlyoffice.com/download-desktop">ONLYOFFICE</a>.</li>
-<li><input disabled="" type="checkbox"> If you prefer to stick with Microsoft or Google, check your settings for Editor or AI features and turn them off.</li>
-<li><input disabled="" type="checkbox"> Move sensitive files to a local drive, disable OneDrive or use an encrypted cloud service.</li>
-</ul>
-
+<meta http-equiv="refresh" content="0; url=/know/#section-14">
+<script>window.location.replace('/know/#section-14')</script>
 
   </main>
   <footer class="site-footer">

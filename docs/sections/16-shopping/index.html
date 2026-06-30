@@ -12,8 +12,10 @@
   <link rel="stylesheet" href="/know/css/know.css">
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/know/sw.js');
-    }
+      navigator.serviceWorker.register('/know/sw.js').catch(function(err) {
+        console.warn('Service worker registration failed:', err);
+      });
+    } 
   </script>
 </head>
 <body>
@@ -27,8 +29,8 @@
   </header>
   <main>
     
-<p>Content coming soon.</p>
-
+<meta http-equiv="refresh" content="0; url=/know/#section-16">
+<script>window.location.replace('/know/#section-16')</script>
 
   </main>
   <footer class="site-footer">
