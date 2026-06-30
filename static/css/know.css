@@ -94,10 +94,6 @@
    Hero
 ----------------------------------------------------------------------------- */
 
-.know-guide {
-  padding-block-start: calc(var(--space-4) + 96px);
-}
-
 .know-hero__title {
   font-size: var(--text-2xl);
   font-weight: var(--weight-bold);
@@ -154,7 +150,8 @@
 ----------------------------------------------------------------------------- */
 
 .know-guide {
-  padding-block: var(--space-6);
+  padding-block-start: calc(var(--space-4) + 96px);
+  padding-block-end: var(--space-6);
 }
 
 
